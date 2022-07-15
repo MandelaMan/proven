@@ -89,7 +89,7 @@ const Navigation = ({
                   >
                     <i className="wsmenu-arrow" />
                   </span>
-                  <Link href="#">
+                  <Link href="/services">
                     <a>
                       Our services <span className="wsarrow" />
                     </a>
@@ -101,13 +101,13 @@ const Navigation = ({
                     }}
                   >
                     <li>
-                      <Link href="#content-2">Plumbing</Link>
+                      <Link href="/services/#plumbing">Plumbing</Link>
                     </li>
                     <li>
-                      <Link href="#content-5">Electrician</Link>
+                      <Link href="/services/#electricity">Electricity</Link>
                     </li>
                     <li>
-                      <Link href="/masonry">Masonry</Link>
+                      <Link href="/services/#masonry">Masonry</Link>
                     </li>
                   </ul>
                 </li>

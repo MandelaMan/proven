@@ -16,7 +16,8 @@ const AboutUs = () => {
                 <div className="about-2-title">
                   {/* Title */}
                   <h2 className="h2-xl">
-                    Quality services should not be that hard to find...
+                    At proven we believe that quality services should not be
+                    that hard to find...
                   </h2>
                   {/* Text */}
                   <p className="p-xl">

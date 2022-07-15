@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Link from "next/dist/client/link";
 import Layout from "../src/layout/Layout";
 import Slider from "react-slick";
+import Counter from "../src/components/Counter";
+import ServiceForm from "../src/components/ServiceForm";
 
 const Home = () => {
   const settings = {
@@ -79,80 +81,7 @@ const Home = () => {
               {/* HERO REQUEST FORM */}
               <div className="col-md-6 col-xl-5 offset-xl-1">
                 <div id="hero-4-form">
-                  {/* Small Logo */}
-                  {/* <div className="hero-logo-sm mb-20">
-                <img
-                  className="img-fluid"
-                  src="/images/logo-01.png"
-                  alt="hero-logo"
-                />
-              </div> */}
-                  {/* Title */}
-                  <h4 className="h4-xs">Request a service</h4>
-                  {/* Text */}
-                  {/* <p className="p-lg">
-                Feugiat primis ligula risus auctor purus laoreet augue mauris
-                viverra tortor
-              </p> */}
-                  {/* Form */}
-                  <form
-                    name="requestForm"
-                    className="row request-form"
-                    onSubmit={(e) => e.preventDefault()}
-                  >
-                    {/* Form Input */}
-                    <div className="col-md-12">
-                      <select name="profession" className="form-control name">
-                        <option>Select your preferred service</option>
-                        <option>Plumbing services</option>
-                        <option>Electrical services</option>
-                        <option>Masonry services</option>
-                      </select>
-                      <input
-                        type="text"
-                        name="name"
-                        className="form-control name"
-                        placeholder="Enter Your Full Name*"
-                        autoComplete="off"
-                        required
-                      />
-                    </div>
-                    {/* Form Input */}
-                    <div className="col-md-12">
-                      <input
-                        type="text"
-                        name="name"
-                        className="form-control name"
-                        placeholder="Enter Your Email*"
-                        autoComplete="off"
-                        required
-                      />
-                    </div>
-                    {/* Form Input */}
-                    <div className="col-md-12">
-                      <input
-                        type="number"
-                        name="email"
-                        className="form-control email"
-                        placeholder="Enter Your Phone No.*"
-                        autoComplete="off"
-                        required
-                      />
-                    </div>
-                    {/* Form Button */}
-                    <div className="col-md-12 form-btn mt-10">
-                      <button
-                        type="submit"
-                        className="btn btn-md btn-pink tra-grey-hover submit"
-                      >
-                        Send request
-                      </button>
-                    </div>
-                    {/* Form Message */}
-                    <div className="col-md-12 request-form-msg text-center">
-                      <span className="loading" />
-                    </div>
-                  </form>
+                  <ServiceForm />
                 </div>
               </div>
               {/* END HERO REQUEST FORM */}
@@ -260,6 +189,60 @@ const Home = () => {
         </section>
         <hr className="divider" />
         <section
+          id="statistic-2"
+          className="wide-100 statistic-section division"
+        >
+          <div className="container">
+            <div className="row d-flex align-items-center">
+              {/* TEXT BLOCK */}
+              <div className="col-lg-6">
+                <div className="txt-block right-column wow fadeInLeft">
+                  <h3 className="h3-xs">
+                    More than 50,000 people use Proven to source for Electrical,
+                    Plumbing and Masonary professionals
+                  </h3>
+                </div>
+              </div>
+              {/* STATISTIC BLOCK #1 */}
+              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
+                <div className="statistic-block wow fadeInUp">
+                  {/* Text */}
+                  <h2 className="h2-title-xs statistic-number">
+                    <span className="count-element">
+                      <Counter end={3} />
+                    </span>
+                    K
+                  </h2>
+                  <p className="p-lg mt-20">
+                    Number of returning <br /> customers per month
+                  </p>
+                </div>
+              </div>
+              {/* STATISTIC BLOCK #2 */}
+              <div className="col-sm-5 col-md-4 col-lg-2">
+                <div className="statistic-block wow fadeInUp">
+                  {/* Text */}
+                  <h2 className="h2-title-xs statistic-number">
+                    <Counter end={4.9} decimals={1} />
+                  </h2>
+                  {/* Rating */}
+                  <div className="txt-block-rating ico-15 yellow-color">
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-half-empty" />
+                  </div>
+                  <p className="p-lg txt-400">Customer Rating</p>
+                </div>
+              </div>
+            </div>
+            {/* End row */}
+          </div>
+          {/* End container */}
+        </section>
+        <hr className="divider" />
+        <section
           id="solution"
           className="content-3 wide-60 content-section division"
         >
@@ -288,25 +271,44 @@ const Home = () => {
                     <h2 className="h2-xs">
                       Customized service delivery at your doorstep
                     </h2>
+                    <p className="p-lg">
+                      We are a Kenyan based company who believe everyone should
+                      enjoy what they do. Every action has an effect on others.
+                      We believe every job well done will result in our clients
+                      recommending us to friends and family
+                    </p>
                     {/* List */}
                     <ul className="simple-list">
                       <li className="list-item">
-                        <p className="p-lg">
+                        <p className="p-md">
+                          An engagement with service providers that is
+                          structured and professional.
+                        </p>
+                      </li>
+                      <li className="list-item">
+                        <p className="p-md">
                           We deliver pain-free repairs and installations and
                           work around your schedule with flexible hours to
                           minimize disruptions.
                         </p>
                       </li>
                       <li className="list-item">
-                        <p className="p-lg">
+                        <p className="p-md">
                           Access to selected service providers fast and
                           comfortably.
                         </p>
                       </li>
                       <li className="list-item">
-                        <p className="p-lg">
+                        <p className="p-md">
                           An engagement with service providers that is
                           structured and professional.
+                        </p>
+                      </li>
+                      <li className="list-item">
+                        <p className="p-md">
+                          We deliver pain-free repairs and installations and
+                          work around your schedule with flexible hours to
+                          minimize disruptions.
                         </p>
                       </li>
                     </ul>
