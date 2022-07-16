@@ -41,7 +41,7 @@ const Services = () => {
           </svg>
         </div>
       </div>
-      <hr className="divider" />
+      {/* <hr className="divider" /> */}
     </Layout>
   );
 };
