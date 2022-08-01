@@ -214,7 +214,7 @@ const Home = () => {
                     K
                   </h2>
                   <p className="p-lg mt-20">
-                    Number of returning <br /> customers per month
+                    Number of servered <br /> customers per month
                   </p>
                 </div>
               </div>
@@ -223,7 +223,8 @@ const Home = () => {
                 <div className="statistic-block wow fadeInUp">
                   {/* Text */}
                   <h2 className="h2-title-xs statistic-number">
-                    <Counter end={4.9} decimals={1} />
+                    <Counter end={9.5} decimals={1} />
+                    /10
                   </h2>
                   {/* Rating */}
                   <div className="txt-block-rating ico-15 yellow-color">
@@ -231,9 +232,14 @@ const Home = () => {
                     <span className="flaticon-star-1" />
                     <span className="flaticon-star-1" />
                     <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
+                    <span className="flaticon-star-1" />
                     <span className="flaticon-star-half-empty" />
                   </div>
-                  <p className="p-lg txt-400">Customer Rating</p>
+                  <p className="p-lg txt-400">Customer's Rating</p>
                 </div>
               </div>
             </div>

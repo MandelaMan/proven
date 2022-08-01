@@ -92,7 +92,7 @@ const ServiceForm = () => {
     setTimeout(() => {
       setLoading(false);
       setStep(2);
-      setService(data.service);
+      setService(data.service.split("|")[1]);
       reset();
 
       setTimeout(() => {
@@ -144,7 +144,7 @@ const ServiceForm = () => {
                     onChange={(e) => {
                       !_.isEmpty(e.target.value)
                         ? setSubCategory(e.target.value.split("|")[0])
-                        : setSubCategory(false);
+                        : setSubCategory(undefined);
                     }}
                   >
                     <option value="">Select your preferred service</option>
