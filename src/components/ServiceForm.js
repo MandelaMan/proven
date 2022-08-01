@@ -48,33 +48,13 @@ const ServiceForm = () => {
               required: "Kindly select service",
             })}
           >
-            <option value="">Select your preferred service</option>
+            <option value="">Select a sub category</option>
             {filtered.map((s, i) => (
               <option value={`${s}`}>{s}</option>
             ))}
           </select>
         );
       }
-
-      console.log(filtered);
-
-      // if (filtered.sub_categories.length > 0) {
-      //   return (
-      //     <select
-      //       name="sub_category_service"
-      //       className="form-control form-select name"
-      //       aria-label="Default select example"
-      //       ref={register({
-      //         required: "Kindly select service",
-      //       })}
-      //     >
-      //       <option value="">Select your preferred service</option>
-      //       {services.map((s, i) => (
-      //         <option value={`${s.name} service`}>{s.name}</option>
-      //       ))}
-      //     </select>
-      //   );
-      // }
     }
   };
 

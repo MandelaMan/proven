@@ -189,13 +189,10 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          {/* TEAM MEMBERS HOLDER */}
-          <div className="team-members-wrapper text-center">
+          {/* <div className="team-members-wrapper text-center">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-              {/* TEAM MEMBER #1 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
-                  {/* Team Member Photo */}
                   <div className="team-member-photo">
                     <img
                       className="img-fluid"
@@ -203,18 +200,15 @@ const AboutUs = () => {
                       alt="team-member-foto"
                     />
                   </div>
-                  {/* Team Member Data */}
+
                   <div className="team-member-data">
                     <h5 className="h5-sm">Susan Awuor</h5>
                     <p className="p-lg">Founder & C.E.O</p>
                   </div>
                 </div>
               </div>{" "}
-              {/* END TEAM MEMBER #1 */}
-              {/* TEAM MEMBER #2 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
-                  {/* Team Member Photo */}
                   <div className="team-member-photo">
                     <img
                       className="img-fluid"
@@ -222,18 +216,15 @@ const AboutUs = () => {
                       alt="team-member-foto"
                     />
                   </div>
-                  {/* Team Member Data */}
+
                   <div className="team-member-data">
                     <h5 className="h5-sm">Ted Otieno</h5>
                     <p className="p-lg">Operations Executive</p>
                   </div>
                 </div>
               </div>{" "}
-              {/* END TEAM MEMBER #2 */}
-              {/* TEAM MEMBER #3 */}
               <div className="col">
                 <div className="team-member wow fadeInUp">
-                  {/* Team Member Photo */}
                   <div className="team-member-photo">
                     <img
                       className="img-fluid"
@@ -241,7 +232,7 @@ const AboutUs = () => {
                       alt="team-member-foto"
                     />
                   </div>
-                  {/* Team Member Data */}
+
                   <div className="team-member-data">
                     <h5 className="h5-sm">Yvonne Sure</h5>
                     <p className="p-lg">Marketing & Communications</p>
@@ -250,7 +241,6 @@ const AboutUs = () => {
               </div>{" "}
               <div className="col">
                 <div className="team-member wow fadeInUp">
-                  {/* Team Member Photo */}
                   <div className="team-member-photo">
                     <img
                       className="img-fluid"
@@ -258,17 +248,15 @@ const AboutUs = () => {
                       alt="team-member-foto"
                     />
                   </div>
-                  {/* Team Member Data */}
+
                   <div className="team-member-data">
                     <h5 className="h5-sm">Team Member</h5>
                     <p className="p-lg">Head of IT</p>
                   </div>
                 </div>
               </div>{" "}
-              {/* END TEAM MEMBER #3 */}
             </div>{" "}
-            {/* End row */}
-          </div>{" "}
+          </div>{" "} */}
           {/* TEAM MEMBERS HOLDER */}
         </div>{" "}
         {/* End container */}
