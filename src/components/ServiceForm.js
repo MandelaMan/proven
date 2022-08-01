@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import PreLoader from "../layout/PreLoader";
+import _ from "lodash";
 
 const ServiceForm = () => {
   const [loading, setLoading] = useState(false);
@@ -9,7 +10,81 @@ const ServiceForm = () => {
 
   const [service, setService] = useState("");
 
+  const [subCategory, setSubCategory] = useState(undefined);
+
   const { register, handleSubmit, reset } = useForm();
+
+  const services = [
+    {
+      id: "SERV-001",
+      name: "Electrical",
+      sub_categories: [
+        "Fix Appliance",
+        "Inspection of Electricity consumption",
+        "Internal and external lightings",
+        "Home security-CCTV Installations",
+        "Wiring",
+        "Doorbell Installation",
+        "Other",
+      ],
+    },
+    { id: "SERV-002", name: "Plumbing", sub_categories: [] },
+    { id: "SERV-003", name: "Masonry", sub_categories: [] },
+  ];
+
+  const subCategoryList = () => {
+    if (!_.isUndefined(subCategory)) {
+      let filtered = services.filter((item) => item.id === subCategory)[0];
+
+      filtered = filtered.sub_categories;
+
+      if (filtered.length > 0) {
+        return (
+          <select
+            name="sub_category_service"
+            className="form-control form-select name"
+            aria-label="Default select example"
+            ref={register({
+              required: "Kindly select service",
+            })}
+          >
+            <option value="">Select your preferred service</option>
+            {filtered.map((s, i) => (
+              <option value={`${s}`}>{s}</option>
+            ))}
+          </select>
+        );
+      }
+
+      console.log(filtered);
+
+      // if (filtered.sub_categories.length > 0) {
+      //   return (
+      //     <select
+      //       name="sub_category_service"
+      //       className="form-control form-select name"
+      //       aria-label="Default select example"
+      //       ref={register({
+      //         required: "Kindly select service",
+      //       })}
+      //     >
+      //       <option value="">Select your preferred service</option>
+      //       {services.map((s, i) => (
+      //         <option value={`${s.name} service`}>{s.name}</option>
+      //       ))}
+      //     </select>
+      //   );
+      // }
+    }
+  };
+
+  useEffect(() => {
+    setSubCategory(undefined);
+
+    return () => {
+      // second
+    };
+  }, []);
 
   const onSubmit = (data) => {
     setLoading(true);
@@ -66,14 +141,20 @@ const ServiceForm = () => {
                     ref={register({
                       required: "Kindly select service",
                     })}
+                    onChange={(e) => {
+                      !_.isEmpty(e.target.value)
+                        ? setSubCategory(e.target.value.split("|")[0])
+                        : setSubCategory(false);
+                    }}
                   >
                     <option value="">Select your preferred service</option>
-                    <option value="Plumbing services">Plumbing services</option>
-                    <option value="Electrical services">
-                      Electrical services
-                    </option>
-                    <option value="Masonry services">Masonry services</option>
+                    {services.map((s, i) => (
+                      <option value={`${s.id}|${s.name}`} key={i}>
+                        {s.name}
+                      </option>
+                    ))}
                   </select>
+                  {subCategoryList()}
                   <input
                     type="text"
                     name="name"

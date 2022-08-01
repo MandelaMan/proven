@@ -17,7 +17,7 @@ const AboutUs = () => {
                   {/* Title */}
                   <h2 className="h2-xl">
                     At proven we believe that quality services should not be
-                    that hard to find...
+                    hard to find...
                   </h2>
                   {/* Text */}
                   <p className="p-xl">
@@ -64,7 +64,7 @@ const AboutUs = () => {
             <div className="col-lg-10 col-xl-8">
               <div className="section-title title-01 mb-70">
                 {/* Title */}
-                <h2 className="h2-md">We’re Better. Here’s Why…</h2>
+                <h2 className="h2-md">We Are Better, Here's Why....</h2>
                 {/* Text */}
                 <p className="p-xl">
                   Aliquam a augue suscipit, luctus neque purus ipsum neque dolor

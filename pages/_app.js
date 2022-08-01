@@ -1,11 +1,3 @@
-// import "../styles/globals.css";
-
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />;
-// }
-
-// export default MyApp;
-
 import Head from "next/head";
 import { useEffect } from "react";
 import "slick-carousel/slick/slick-theme.css";

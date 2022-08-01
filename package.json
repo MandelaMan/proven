@@ -8,13 +8,14 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {    
+  "dependencies": {
     "isotope-layout": "^3.0.6",
+    "lodash": "^4.17.21",
     "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
     "react-bootstrap": "^1.6.4",
     "react-countup": "^6.0.0",
+    "react-dom": "18.2.0",
     "react-hook-form": "^6.8.2",
     "react-slick": "^0.28.1",
     "react-visibility-sensor": "^5.1.1",
