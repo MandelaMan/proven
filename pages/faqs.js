@@ -3,19 +3,42 @@ import Layout from "../src/layout/Layout";
 
 const faqs = () => {
   const faqs_A = [
-    { title: "How does it work?" },
-    { title: "How does it work?" },
-    { title: "How does it work?" },
-    { title: "How does it work?" },
-    { title: "How does it work?" },
+    {
+      question: "Where is your office located?",
+      answer: "We are located at Mirage Tower, 13th Floor, Westlands. ",
+    },
+    {
+      question: "What are your working hours? ",
+      answer: "We work for 24 hours a day.",
+    },
+    {
+      question: "How long does it take to complete a project?",
+      answer:
+        "We take the least time possible to complete a project after all supplies have been delivered and payments have completed. ",
+    },
+    {
+      question: "How can I book a service? ",
+      answer:
+        "You can book a service by selecting one of the listed options on the drop down (place a link for electrical, plumbing, masonry drop down separately) Our booking team will give you a call back, discuss your particular requirements and advice on pricing. ",
+    },
   ];
 
   const faqs_B = [
-    { title: "How do i make payment?" },
-    { title: "How do i make payment?" },
-    { title: "How do i make payment?" },
-    { title: "How do i make payment?" },
-    { title: "How do i make payment?" },
+    {
+      question: "How can I get a quote? ",
+      answer:
+        "We'll first make an inspection and check what work is required and give you a quote to complete the work. Our job booking team will discuss your particular requirements and will advise on pricing. ",
+    },
+    {
+      question: "Do you offer emergency call services? ",
+      answer:
+        "For any emergency problems don’t hesitate to contact us. We will attend to your query as soon as possible. Our average response time depends on location and we will give you a quote for any additional costs to be incurred to completely resolve the fault. All of our emergency service providers are fully qualified. If we can’t fix the problem straightaway we will give you safety measures to follow. ",
+    },
+    {
+      question: "Are your service providers trained? ",
+      answer:
+        "Yes. Our service providers are trained and qualified to carry out inspections, repairs, installations and maintenance. Our service providers attend training to enhance their skills. ",
+    },
   ];
   return (
     <Layout
@@ -33,10 +56,10 @@ const faqs = () => {
                   {/* Title */}
                   <h2 className="h2-xs">Frequently Asked Questions</h2>
                   {/* Text */}
-                  <p className="p-xl">
-                    Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                    dolor primis libero tempus, blandit and cursus varius
-                  </p>
+                  {/* <p className="p-xl">
+                    Check most frequently asked questions here, if you still
+                    need help then please contact us at enquiries@proven.co.ke
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -63,14 +86,9 @@ const faqs = () => {
                   {faqs_A.map((fA, i) => (
                     <div className="question wow fadeInUp">
                       {/* Question */}
-                      <h5 className="h5-md">{fA.title}</h5>
+                      <h5 className="h5-md">{fA.question}</h5>
                       {/* Answer */}
-                      <p className="p-lg">
-                        Etiam amet mauris suscipit in odio integer congue metus
-                        vitae arcu mollis blandit ultrice ligula egestas and
-                        magna suscipit lectus magna suscipit luctus blandit
-                        vitae
-                      </p>
+                      <p className="p-lg">{fA.answer}</p>
                     </div>
                   ))}
                 </div>
@@ -82,14 +100,9 @@ const faqs = () => {
                   {faqs_B.map((fB, i) => (
                     <div className="question wow fadeInUp">
                       {/* Question */}
-                      <h5 className="h5-md">{fB.title}</h5>
+                      <h5 className="h5-md">{fB.question}</h5>
                       {/* Answer */}
-                      <p className="p-lg">
-                        Etiam amet mauris suscipit in odio integer congue metus
-                        vitae arcu mollis blandit ultrice ligula egestas and
-                        magna suscipit lectus magna suscipit luctus blandit
-                        vitae
-                      </p>
+                      <p className="p-lg">{fB.answer}</p>
                     </div>
                   ))}
                 </div>
@@ -100,18 +113,6 @@ const faqs = () => {
           </div>{" "}
           {/* END FAQs-2 QUESTIONS */}
           {/* MORE QUESTIONS BUTTON */}
-          <div className="row">
-            <div className="col">
-              <div className="more-questions">
-                <h5 className="h5-sm">
-                  Have more questions?{" "}
-                  <Link href="/contacts">
-                    <a>Ask your question here</a>
-                  </Link>
-                </h5>
-              </div>
-            </div>
-          </div>
         </div>{" "}
         {/* End container */}
       </section>
@@ -126,8 +127,10 @@ const faqs = () => {
               <div className="col-lg-9">
                 <div className="cta-7-txt">
                   <p className="p-xl">
-                    {`Still have a question? Don't worry, our customer care team
-                    is ready to help you with any questions or problems`}
+                    {/* {`Still have a question? Don't worry, our customer care team
+                    is ready to help you with any questions or problems`} */}
+                    Still have a questions or need help? Please contact us at
+                    enquiries@proven.co.ke
                   </p>
                 </div>
               </div>
