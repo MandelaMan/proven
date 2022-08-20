@@ -19,8 +19,9 @@ const Services = () => {
                   <h2 className="h2-xs">Our Services</h2>
                   {/* Text */}
                   <p className="p-xl">
-                    Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                    dolor primis libero tempus, blandit and cursus varius
+                    For all your household needs, Proven is your leading and
+                    trusted Electrical, Plumbing and Masonry skilled service
+                    providers in Africa.
                   </p>
                 </div>
               </div>

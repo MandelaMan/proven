@@ -21,11 +21,11 @@ const ContactUs = () => {
                   {`Have a question? Don't hesitate, drop us a line`}
                 </h2>
                 {/* Text */}
-                <p className="p-xl">
+                {/* <p className="p-xl">
                   Aliquam a augue suscipit, luctus neque purus ipsum neque at
                   dolor primis libero tempus, blandit and cursus varius and
                   magnis sapien
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -48,12 +48,21 @@ const ContactUs = () => {
                       className="form-select subject"
                       aria-label="Default select example"
                     >
-                      <option selected>This question is about...</option>
-                      <option>Registering/Authorising</option>
-                      <option>Using Application</option>
-                      <option>Troubleshooting</option>
-                      <option>Backup/Restore</option>
-                      <option>Other</option>
+                      <option value="Problem with service provider">
+                        Problem with service provider
+                      </option>
+                      <option value="Problem with quotation">
+                        Problem with quotation
+                      </option>
+                      <option value="Problem with service">
+                        Problem with service
+                      </option>
+                      <option value="Did not receive a callback">
+                        Did not receive a callback
+                      </option>
+                      <option value="Need more information on service">
+                        Need more information on service
+                      </option>
                     </select>
                   </div>
                   {/* Contact Form Input */}

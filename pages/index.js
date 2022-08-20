@@ -7,6 +7,29 @@ import Counter from "../src/components/Counter";
 import ServiceForm from "../src/components/ServiceForm";
 
 const Home = () => {
+  const testimonials = [
+    {
+      comment:
+        "My interaction with the service provider was very good. He was very well behaved and the service was well done. ",
+      name: "Becky",
+      fix: "Earth Fault Inspection",
+      location: "Lavington",
+    },
+    {
+      comment:
+        "What I loved most about the service was the work was neat and the cabling was very well done. There was constant communication to ensure everything was settled at its best. The service was transparent and affordable. ",
+      name: "Stella",
+      fix: "Line Extension",
+      location: "Komarock",
+    },
+    {
+      comment:
+        "During the service my expectations were fully met. There was excellent timekeeping, good briefing from the service provider and follow-up which was done really well. ",
+      name: "Eric",
+      fix: "Showerhead Connection",
+      location: "Lang'ata",
+    },
+  ];
   const settings = {
     dots: true,
     infinite: true,
@@ -278,10 +301,21 @@ const Home = () => {
                       Customized service delivery at your doorstep
                     </h2>
                     <p className="p-lg">
-                      We are a Kenyan based company who believe everyone should
-                      enjoy what they do. Every action has an effect on others.
-                      We believe every job well done will result in our clients
-                      recommending us to friends and family
+                      We are an organisation that offers Electrical, Plumbing,
+                      and Masonry services. We pride ourselves on providing
+                      Professional, Efficient, Reliable and Timely Services. We
+                      provide quality customer-focused service from start
+                      through to job completion.
+                    </p>
+                    <p>
+                      Our Vision is to create a perfect world that judges on
+                      competence and our ultimate goal is to guarantee quality
+                      service to the client while improving the personal and
+                      professional development of the service provider.{" "}
+                    </p>
+                    <p>
+                      Your home systems should run smoothly therefore we provide
+                      the best solutions for all your needs.{" "}
                     </p>
                     {/* List */}
                     <ul className="simple-list">
@@ -302,19 +336,6 @@ const Home = () => {
                         <p className="p-md">
                           Access to selected service providers fast and
                           comfortably.
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="p-md">
-                          An engagement with service providers that is
-                          structured and professional.
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="p-md">
-                          We deliver pain-free repairs and installations and
-                          work around your schedule with flexible hours to
-                          minimize disruptions.
                         </p>
                       </li>
                     </ul>
@@ -353,346 +374,41 @@ const Home = () => {
               <div className="col">
                 <div className="owl-carousel owl-theme reviews-1-wrapper">
                   <Slider {...settings}>
-                    {/* TESTIMONIAL #1 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          Etiam sapien sagittis congue augue massa varius
-                          egestas ultrice varius magna a tempus aliquet undo
-                          cursus suscipit
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-1.jpg"
-                              alt="review-avatar"
-                            />
+                    {testimonials.map((t, i) => (
+                      <div className="review-1" key={i}>
+                        <div className="review-1-ico ico-25">
+                          <span className="flaticon-left-quote" />
+                        </div>
+                        <div className="review-1-txt">
+                          <div className="author-data clearfix">
+                            <div
+                              className="review-author"
+                              style={{ marginLeft: "-5%" }}
+                            >
+                              <h6 className="h6-xl">{t.fix}</h6>
+                            </div>
                           </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Scott Boxer</h6>
-                            <p className="p-md">@scott_boxer</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
+                          <p className="p-lg">{t.comment}</p>
+                          <div className="author-data clearfix">
+                            <div
+                              className="review-author"
+                              style={{ marginLeft: "-5%" }}
+                            >
+                              <h6 className="h6-xl">{t.name}</h6>
+                              <p className="p-md">{t.location}</p>
+                              {/* Rating */}
+                              <div className="review-rating ico-15 yellow-color">
+                                <span className="flaticon-star-1" />
+                                <span className="flaticon-star-1" />
+                                <span className="flaticon-star-1" />
+                                <span className="flaticon-star-1" />
+                                <span className="flaticon-star-half-empty" />
+                              </div>
                             </div>
                           </div>
                         </div>
-                        {/* End Testimonial Author */}
                       </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #1 */}
-                    {/* TESTIMONIAL #2 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          At sagittis congue augue and egestas magna ipsum vitae
-                          a purus ipsum primis in cubilia laoreet augue egestas
-                          luctus and donec diam ultrice ligula magna suscipit
-                          lectus gestas augue into cubilia
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-2.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Joel Peterson</h6>
-                            <p className="p-md">Internet Surfer</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #2 */}
-                    {/* TESTIMONIAL #3 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          Mauris donec magnis sapien etiam sapien congue augue
-                          egestas et ultrice vitae purus diam integer a congue
-                          magna ligula undo egestas magna at suscipit feugiat
-                          primis
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-3.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Marisol19</h6>
-                            <p className="p-md">@marisol19</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #3 */}
-                    {/* TESTIMONIAL #4 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          Mauris donec a magnis sapien etiam sapien congue augue
-                          pretium ligula lectus aenean a magna undo mauris
-                          lectus laoreet tempor egestas
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-4.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Leslie D.</h6>
-                            <p className="p-md">Web Developer</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #4 */}
-                    {/* TESTIMONIAL #5 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          An augue cubilia laoreet magna suscipit egestas and
-                          ipsum a lectus purus ipsum primis and augue ultrice
-                          ligula and egestas a suscipit lectus gestas undo
-                          auctor tempus feugiat impedit
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-5.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Jennifer Harper</h6>
-                            <p className="p-md">App Developer</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #5 */}
-                    {/* TESTIMONIAL #6 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          An augue cubilia laoreet undo magna ipsum semper
-                          suscipit egestas magna ipsum ligula a vitae purus and
-                          ipsum primis cubilia magna suscipit
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-6.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Jonathan Barnes</h6>
-                            <p className="p-md">jQuery Programmer</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #6 */}
-                    {/* TESTIMONIAL #7 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          Augue egestas diam tempus volutpat egestas augue in
-                          cubilia laoreet magna suscipit luctus dolor and
-                          blandit vitae purus diam tempus an aliquet porta
-                          rutrum gestas
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-7.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Mike Harris</h6>
-                            <p className="p-md">Graphic Designer</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #7 */}
-                    {/* TESTIMONIAL #8 */}
-                    <div className="review-1">
-                      {/* Quote Icon */}
-                      <div className="review-1-ico ico-25">
-                        <span className="flaticon-left-quote" />
-                      </div>
-                      {/* Text */}
-                      <div className="review-1-txt">
-                        {/* Text */}
-                        <p className="p-lg">
-                          Augue at vitae purus tempus egestas volutpat augue
-                          undo cubilia laoreet magna suscipit luctus dolor
-                          blandit at purus tempus feugiat impedit
-                        </p>
-                        {/* Testimonial Author */}
-                        <div className="author-data clearfix">
-                          {/* Testimonial Avatar */}
-                          <div className="review-avatar">
-                            <img
-                              src="/images/review-author-8.jpg"
-                              alt="review-avatar"
-                            />
-                          </div>
-                          {/* Testimonial Author */}
-                          <div className="review-author">
-                            <h6 className="h6-xl">Evelyn Martinez</h6>
-                            <p className="p-md">WordPress Consultant</p>
-                            {/* Rating */}
-                            <div className="review-rating ico-15 yellow-color">
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-1" />
-                              <span className="flaticon-star-half-empty" />
-                            </div>
-                          </div>
-                        </div>
-                        {/* End Testimonial Author */}
-                      </div>
-                      {/* End Text */}
-                    </div>
-                    {/* END TESTIMONIAL #8 */}
+                    ))}
                   </Slider>
                 </div>
               </div>

@@ -129,7 +129,7 @@ const faqs = () => {
                   <p className="p-xl">
                     {/* {`Still have a question? Don't worry, our customer care team
                     is ready to help you with any questions or problems`} */}
-                    Still have a questions or need help? Please contact us at
+                    Still have a question or need help? Please contact us at
                     enquiries@proven.co.ke
                   </p>
                 </div>
