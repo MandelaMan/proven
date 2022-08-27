@@ -28,7 +28,21 @@ const ServiceForm = () => {
         "Other",
       ],
     },
-    { id: "SERV-002", name: "Plumbing", sub_categories: [] },
+    {
+      id: "SERV-002",
+      name: "Plumbing",
+      sub_categories: [
+        "Sewer Systems",
+        "Pipes",
+        "Water Heater",
+        "Gutters",
+        "Tanks",
+        "Sinks",
+        "Drains",
+        "Toilets",
+        "Plumbing Inspection",
+      ],
+    },
     { id: "SERV-003", name: "Masonry", sub_categories: [] },
   ];
 
@@ -66,7 +80,27 @@ const ServiceForm = () => {
     };
   }, []);
 
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
+    data["service"] = data.service.split("|")[1];
+
+    const response = await fetch("/api/mail", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    console.log(response);
+
+    // if (!response.ok) {
+    //   throw new Error(`Error: ${response.status}`);
+    // }
+
+    // const response = await response.json();
+
+    // console.log("POST: ", data);
+
     setLoading(true);
 
     setTimeout(() => {
