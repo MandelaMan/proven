@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "dotenv": "^16.0.1",
     "isotope-layout": "^3.0.6",
     "lodash": "^4.17.21",
