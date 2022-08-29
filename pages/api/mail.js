@@ -21,6 +21,7 @@ export default (req, res) => {
       "enquiries@proven.africa",
       "nelsonomoro@gmail.com",
       "kevkiruthu@gmail.com",
+      "susan@proven.co.ke",
     ],
     from: "website@proven.africa",
     subject: "New Client Request",
