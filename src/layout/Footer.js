@@ -141,6 +141,11 @@ const Footer = () => {
               <ul className="bottom-footer-list text-secondary text-end">
                 <li className="first-li">
                   <p>
+                    <a href="#">Instagram</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
                     <a href="#">Facebook</a>
                   </p>
                 </li>
@@ -152,11 +157,6 @@ const Footer = () => {
                 <li>
                   <p>
                     <a href="#">LinkedIn</a>
-                  </p>
-                </li>
-                <li className="last-li">
-                  <p>
-                    <a href="#">Dribbble</a>
                   </p>
                 </li>
               </ul>

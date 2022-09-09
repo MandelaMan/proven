@@ -104,7 +104,7 @@ const Navigation = ({
                       <Link href="/services/#plumbing">Plumbing</Link>
                     </li>
                     <li>
-                      <Link href="/services/#electricity">Electricity</Link>
+                      <Link href="/services/#electrical">Electricity</Link>
                     </li>
                     <li>
                       <Link href="/services/#masonry">Masonry</Link>

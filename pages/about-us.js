@@ -1,7 +1,14 @@
 import Link from "next/dist/client/link";
+import BrandCompanies from "../src/components/BrandCompanies";
 import Layout from "../src/layout/Layout";
 
 const AboutUs = () => {
+  const values = [
+    { title: "Professional", description: "" },
+    { title: "Quality", description: "" },
+    { title: "Teamwork", description: "" },
+    { title: "Saftey", description: "" },
+  ];
   return (
     <Layout
       btnCustomHover="btn btn-skyblue tra-grey-hover last-link"
@@ -21,9 +28,16 @@ const AboutUs = () => {
                   </h2>
                   {/* Text */}
                   <p className="p-xl">
-                    Quaerat sodales sapien and euismod blandit vitae ipsum
-                    primis cubilia undo laoreet augue luctus magna and dolor
-                    luctus egestas sapien
+                    Proven was birthed with the need to offer reliable services
+                    in an extraordinary manner. Since inception we continue to
+                    be a solution to our clients needs in a professional,
+                    efficient, timely and integral manner.
+                  </p>
+                  <p className="p-xl">
+                    We aim to provide modern, innovative solutions. We are
+                    leading the industry by providing the resources it takes to
+                    ensure your safety and innovating the latest training
+                    practices to our service providers.
                   </p>
                 </div>
               </div>
@@ -36,7 +50,7 @@ const AboutUs = () => {
                 <div className="col col-md-5">
                   <img
                     className="img-fluid"
-                    src="/myImages/img-5.jpg"
+                    src="/images/about1.jpg"
                     alt="about-image"
                   />
                 </div>
@@ -44,7 +58,7 @@ const AboutUs = () => {
                 <div className="col col-md-7">
                   <img
                     className="img-fluid"
-                    src="/myImages/img-4.jpg"
+                    src="/images/about2.jpg"
                     alt="about-image"
                   />
                 </div>
@@ -59,7 +73,6 @@ const AboutUs = () => {
       </section>
       <section id="features-4" className="wide-60 features-section division">
         <div className="container">
-          {/* SECTION TITLE */}
           <div className="row justify-content-center">
             <div className="col-lg-10 col-xl-8">
               <div className="section-title title-01 mb-70">
@@ -77,94 +90,29 @@ const AboutUs = () => {
           {/* FEATURES-4 WRAPPER */}
           <div className="fbox-4-wrapper fbox-4-wide">
             <div className="row row-cols-1 row-cols-md-2">
-              {/* FEATURE BOX #1 */}
-              <div className="col">
-                <div className="fbox-4 pr-25 mb-40 wow fadeInUp">
-                  {/* Icon */}
-                  <div className="fbox-ico">
-                    <div className="ico-65">
-                      <span className="flaticon-line-graph-1" />
+              {values.map((v, i) => (
+                <div className="col" key={i}>
+                  <div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+                    {/* Icon */}
+                    <div className="fbox-ico">
+                      <div className="ico-65">
+                        <span className="flaticon-line-graph-1" />
+                      </div>
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      {/* Title */}
+                      <h5 className="h5-md">{v.title}</h5>
+                      {/* Text */}
+                      <p className="p-lg">
+                        Porta semper lacus cursus feugiat primis ultrice ligula
+                        risus auctor tempus feugiat impedit undo auctor felis
+                        augue mauris aoreet tempor
+                      </p>
                     </div>
                   </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    {/* Title */}
-                    <h5 className="h5-md">Market Research</h5>
-                    {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus cursus feugiat primis ultrice ligula
-                      risus auctor tempus feugiat impedit undo auctor felis
-                      augue mauris aoreet tempor
-                    </p>
-                  </div>
                 </div>
-              </div>
-              {/* FEATURE BOX #2 */}
-              <div className="col">
-                <div className="fbox-4 pl-25 mb-40 wow fadeInUp">
-                  {/* Icon */}
-                  <div className="fbox-ico">
-                    <div className="ico-65">
-                      <span className="flaticon-idea" />
-                    </div>
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    {/* Title */}
-                    <h5 className="h5-md">User Experience</h5>
-                    {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus cursus feugiat primis ultrice ligula
-                      risus auctor tempus feugiat impedit undo auctor felis
-                      augue mauris aoreet tempor
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* FEATURE BOX #3 */}
-              <div className="col">
-                <div className="fbox-4 pr-25 mb-40 wow fadeInUp">
-                  {/* Icon */}
-                  <div className="fbox-ico">
-                    <div className="ico-65">
-                      <span className="flaticon-algorithm" />
-                    </div>
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    {/* Title */}
-                    <h5 className="h5-md">Professional Services</h5>
-                    {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus cursus feugiat primis ultrice ligula
-                      risus auctor tempus feugiat impedit undo auctor felis
-                      augue mauris aoreet tempor
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* FEATURE BOX #4 */}
-              <div className="col">
-                <div className="fbox-4 pl-25 mb-40 wow fadeInUp">
-                  {/* Icon */}
-                  <div className="fbox-ico">
-                    <div className="ico-65">
-                      <span className="flaticon-increase-1" />
-                    </div>
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    {/* Title */}
-                    <h5 className="h5-md">Digital Marketing</h5>
-                    {/* Text */}
-                    <p className="p-lg">
-                      Porta semper lacus cursus feugiat primis ultrice ligula
-                      risus auctor tempus feugiat impedit undo auctor felis
-                      augue mauris aoreet tempor
-                    </p>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>{" "}
           {/* END FEATURES-4 WRAPPER */}
@@ -172,95 +120,7 @@ const AboutUs = () => {
         {/* End container */}
       </section>
       <hr className="divider" />
-      <section id="team-1" className="wide-50 team-section division">
-        <div className="container">
-          {/* SECTION TITLE */}
-          <div className="row justify-content-center">
-            <div className="col-lg-10 col-xl-8">
-              <div className="section-title title-01 mb-80">
-                {/* Title */}
-                <h2 className="h2-md">Meet the Team</h2>
-                {/* Text */}
-                <p className="p-xl">
-                  Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                  primis a libero tempus, blandit and cursus varius and magnis
-                  sapien
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* <div className="team-members-wrapper text-center">
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-              <div className="col">
-                <div className="team-member wow fadeInUp">
-                  <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-8.jpg"
-                      alt="team-member-foto"
-                    />
-                  </div>
-
-                  <div className="team-member-data">
-                    <h5 className="h5-sm">Susan Awuor</h5>
-                    <p className="p-lg">Founder & C.E.O</p>
-                  </div>
-                </div>
-              </div>{" "}
-              <div className="col">
-                <div className="team-member wow fadeInUp">
-                  <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-8.jpg"
-                      alt="team-member-foto"
-                    />
-                  </div>
-
-                  <div className="team-member-data">
-                    <h5 className="h5-sm">Ted Otieno</h5>
-                    <p className="p-lg">Operations Executive</p>
-                  </div>
-                </div>
-              </div>{" "}
-              <div className="col">
-                <div className="team-member wow fadeInUp">
-                  <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-8.jpg"
-                      alt="team-member-foto"
-                    />
-                  </div>
-
-                  <div className="team-member-data">
-                    <h5 className="h5-sm">Yvonne Sure</h5>
-                    <p className="p-lg">Marketing & Communications</p>
-                  </div>
-                </div>
-              </div>{" "}
-              <div className="col">
-                <div className="team-member wow fadeInUp">
-                  <div className="team-member-photo">
-                    <img
-                      className="img-fluid"
-                      src="/images/team-8.jpg"
-                      alt="team-member-foto"
-                    />
-                  </div>
-
-                  <div className="team-member-data">
-                    <h5 className="h5-sm">Team Member</h5>
-                    <p className="p-lg">Head of IT</p>
-                  </div>
-                </div>
-              </div>{" "}
-            </div>{" "}
-          </div>{" "} */}
-          {/* TEAM MEMBERS HOLDER */}
-        </div>{" "}
-        {/* End container */}
-      </section>
+      <BrandCompanies />
     </Layout>
   );
 };

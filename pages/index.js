@@ -158,8 +158,9 @@ const Home = () => {
                     <h5 className="h5-md">Plumbing Services</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      We offer plumbing installations, maintenance and repair
+                      work, including tap repairs, tank repairs, toilet repairs
+                      and many more.
                     </p>
                   </div>
                 </div>
@@ -178,8 +179,9 @@ const Home = () => {
                     <h5 className="h5-md">Electrical Services</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      We offer electrical installations, maintenance and repair
+                      work, including outlet repairs, appliance repairs, wiring
+                      system repairs and many more.
                     </p>
                   </div>
                 </div>
@@ -198,8 +200,9 @@ const Home = () => {
                     <h5 className="h5-md">Masonry services</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      We offer masonry installations, maintenance and repair
+                      work, including tiling, cabro, waterproofing and many
+                      more.
                     </p>
                   </div>
                 </div>
@@ -359,7 +362,7 @@ const Home = () => {
               <div className="col-lg-10 col-xl-8">
                 <div className="section-title title-01 mb-70">
                   {/* Title */}
-                  <h2 className="h2-md">Client feedback</h2>
+                  <h2 className="h2-md">Stories From Our Customers</h2>
                   {/* Text */}
                   <p className="p-xl">
                     Aliquam a augue suscipit, luctus neque purus ipsum neque

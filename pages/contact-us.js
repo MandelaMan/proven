@@ -17,15 +17,7 @@ const ContactUs = () => {
             <div className="col-md-10 col-lg-8">
               <div className="section-title title-02 mb-80">
                 {/* Title */}
-                <h2 className="h2-xs">
-                  {`Have a question? Don't hesitate, drop us a line`}
-                </h2>
-                {/* Text */}
-                {/* <p className="p-xl">
-                  Aliquam a augue suscipit, luctus neque purus ipsum neque at
-                  dolor primis libero tempus, blandit and cursus varius and
-                  magnis sapien
-                </p> */}
+                <h2 className="h2-xs">{`Have a question?`}</h2>
               </div>
             </div>
           </div>
