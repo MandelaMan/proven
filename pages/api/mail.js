@@ -33,9 +33,9 @@ export default (req, res) => {
 
   const data = {
     to: [
-      // "enquiries@proven.africa",
+      "enquiries@proven.africa",
       "nelsonomoro@gmail.com",
-      // "kevkiruthu@gmail.com",
+      "kevkiruthu@gmail.com",
       // "susan@proven.co.ke",
     ],
     from: "website@proven.africa",
