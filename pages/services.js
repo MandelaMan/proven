@@ -15,9 +15,7 @@ const Services = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10 col-xl-8">
                 <div className="hero-txt text-center white-color">
-                  {/* Title */}
                   <h2 className="h2-xs">Our Services</h2>
-                  {/* Text */}
                   <p className="p-xl">
                     For all your household needs, we are your trusted
                     Electrical, Plumbing and Masonry skilled service providers
@@ -25,13 +23,9 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-            </div>{" "}
-            {/* End row */}
-          </div>{" "}
-          {/* End container */}
-        </div>{" "}
-        {/* End hero-overlay */}
-        {/* WAVE SHAPE BOTTOM */}
+            </div>
+          </div>
+        </div>
         <div className="wave-shape-bottom">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
             <path
@@ -42,7 +36,6 @@ const Services = () => {
           </svg>
         </div>
       </div>
-      {/* <hr className="divider" /> */}
       <section
         id="content-3"
         className="content-3 wide-60 content-section division"
@@ -50,17 +43,15 @@ const Services = () => {
         <div className="container">
           <div id="electrical" className="bottom-row">
             <div className="row d-flex align-items-center">
-              {/* IMAGE BLOCK */}
               <div className="col-md-5 col-lg-6">
                 <div className="img-block left-column wow fadeInRight">
                   <img
                     className="img-fluid"
-                    src="/images/img-17.png"
+                    src="/images/img_b.png"
                     alt="video-preview"
                   />
                 </div>
               </div>
-              {/* TEXT BLOCK */}
               <div className="col-md-7 col-lg-6">
                 <div className="txt-block right-column wow fadeInLeft">
                   <h2 className="h2-xs">Electrical Services</h2>
@@ -87,13 +78,11 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
-              {/* END TEXT BLOCK */}
+              </div>
             </div>
           </div>
           <div className="top-row pb-50">
             <div className="row d-flex align-items-center">
-              {/* TEXT BLOCK */}
               <div className="col-md-7 col-lg-6 order-last order-lg-2">
                 <div className="txt-block left-column wow fadeInRight">
                   <h2 className="h2-xs">Plumbing Services</h2>
@@ -112,9 +101,7 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>{" "}
-              {/* END TEXT BLOCK */}
-              {/* IMAGE BLOCK */}
+              </div>
               <div
                 id="plumbing"
                 className="col-md-5 col-lg-6 order-first order-md-2"
@@ -122,7 +109,7 @@ const Services = () => {
                 <div className="img-block left-column wow fadeInLeft">
                   <img
                     className="img-fluid"
-                    src="/images/img-16.png"
+                    src="/images/img_e.png"
                     alt="content-image"
                   />
                 </div>
@@ -131,17 +118,15 @@ const Services = () => {
           </div>
           <div id="electrical" className="bottom-row">
             <div className="row d-flex align-items-center">
-              {/* IMAGE BLOCK */}
               <div className="col-md-5 col-lg-6">
                 <div className="img-block left-column wow fadeInRight">
                   <img
                     className="img-fluid"
-                    src="/images/img-17.png"
+                    src="/images/img_a.png"
                     alt="video-preview"
                   />
                 </div>
               </div>
-              {/* TEXT BLOCK */}
               <div id="masonry" className="col-md-7 col-lg-6">
                 <div className="txt-block right-column wow fadeInLeft">
                   <h2 className="h2-xs">Masonry Services</h2>
@@ -166,6 +151,41 @@ const Services = () => {
                 </div>
               </div>{" "}
               {/* END TEXT BLOCK */}
+            </div>
+          </div>
+          <div className="top-row pb-50">
+            <div className="row d-flex align-items-center">
+              <div className="col-md-7 col-lg-6 order-last order-lg-2">
+                <div className="txt-block left-column wow fadeInRight">
+                  <h2 className="h2-xs">Solar Installation</h2>
+                  <div className="txt-box mb-25">
+                    <p className="p-lg">
+                      Proven provides effective solutions for all your plumbing
+                      needs. We are affordable while maintaining quality. You
+                      can count on a job well done when you contact one of our
+                      experienced plumbers for a project.
+                    </p>
+                    <p className="p-lg">
+                      We offer plumbing installations, maintenance and repair
+                      work, including tap repairs, tank repairs, toilet repairs
+                      and many more. If you require plumbing solutions, contact
+                      us today.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="solar"
+                className="col-md-5 col-lg-6 order-first order-md-2"
+              >
+                <div className="img-block left-column wow fadeInLeft">
+                  <img
+                    className="img-fluid"
+                    src="/images/img_d.png"
+                    alt="content-image"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -77,9 +77,9 @@ const Navigation = ({
                   navHoverColor ? navHoverColor : "nav-skyblue-hover"
                 }`}
               >
-                <li className="nl-simple">
+                {/* <li className="nl-simple">
                   <Link href="/#solution">Our solution</Link>
-                </li>
+                </li> */}
                 <li>
                   <span
                     className={`wsmenu-click ${
@@ -109,13 +109,20 @@ const Navigation = ({
                     <li>
                       <Link href="/services/#masonry">Masonry</Link>
                     </li>
+                    <li>
+                      <Link href="/services/#solar">Solar</Link>
+                    </li>
                   </ul>
                 </li>
+
                 <li className="nl-simple">
                   <Link href="/about-us">About us</Link>
                 </li>
                 <li className="nl-simple">
                   <Link href="/contact-us">Contact us</Link>
+                </li>
+                <li className="nl-simple">
+                  <Link href="/about-us">Impact</Link>
                 </li>
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple">
