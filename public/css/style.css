@@ -9,7 +9,8 @@ html {
 
 body {
   /* font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-  font-family: 'Montserat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Montserat', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: 'Montserat', sans-serif;
   color: #6c757d;
   line-height: 1.6666;
   font-weight: 300;

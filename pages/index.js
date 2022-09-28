@@ -77,14 +77,14 @@ const Home = () => {
                   {/* Title */}
                   <h2 className="h2-lg">
                     <strong>
-                      Competence and Skill delivered professionally.
+                      Competence and Skill delivered professionally
                     </strong>
                   </h2>
                   {/* <h3>Competence and Skill delivered professionally.</h3> */}
                   <p className="p-xl mt-3">
                     We strive to provide a unique market place where skilled
                     informal service providers meet and interact with customers
-                    who need their services in a professional manner.
+                    who need their services in a professional manner
                   </p>
                   {/* List
                   <ul className="simple-list">

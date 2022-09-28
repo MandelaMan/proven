@@ -137,7 +137,7 @@ const faqs = () => {
               {/* BUTTON */}
               <div className="col-lg-3 text-end">
                 <div className="cta-7-btn">
-                  <Link href="/contacts">
+                  <Link href="/contact-us">
                     <a className="btn btn-skyblue tra-grey-hover">Contact Us</a>
                   </Link>
                 </div>
