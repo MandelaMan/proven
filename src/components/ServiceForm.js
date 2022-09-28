@@ -140,7 +140,9 @@ const ServiceForm = () => {
           )}
           {step === 1 && (
             <div>
-              <h4 className="h4-xs">What service are you looking for?</h4>
+              <h5 className="h5-xl">
+                <strong>What service are you looking for?</strong>
+              </h5>
               <form
                 name="requestForm"
                 className="row request-form"
@@ -217,7 +219,7 @@ const ServiceForm = () => {
                 <div className="col-md-12 form-btn mt-10">
                   <button
                     type="submit"
-                    className="btn btn-md btn-pink tra-grey-hover submit"
+                    className="btn btn-md btn-proven-blue tra-grey-hover submit"
                   >
                     Send request
                   </button>

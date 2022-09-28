@@ -8,10 +8,11 @@ html {
 } 
 
 body {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: 'Montserat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #6c757d;
   line-height: 1.6666;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .center-me { 
@@ -506,7 +507,7 @@ hr.divider {
 
 h1, h2, h3, h4, h5, h6 {  
   color: #2f353e;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserat', sans-serif;
   font-weight: 500;
   letter-spacing: -0.75px;
 }
@@ -925,6 +926,17 @@ ol.digit-list p {
   color: #ff523d!important;
   background-color: transparent;
   border-color: #ff523d!important;
+}
+
+.btn-proven-blue, 
+.scroll .btn-proven-blue, 
+.white-color .btn-proven-blue,
+.proven-blue-hover:hover, 
+.scroll .proven-blue-hover:hover, 
+.white-color .proven-blue-hover:hover {
+  color: #fff!important;
+  background-color: #59a1dd;
+  border-color: #59a1dd!important;
 }
 
 .btn-pink, 
@@ -2926,7 +2938,7 @@ p.terms-txt a,
 #hero-4 {
   position: relative;
   background-image: url(../images/hero-4.jpg);
-  padding-top: 160px;
+  padding-top: 150px;
   padding-bottom: 50px;
 }
 
@@ -2943,7 +2955,7 @@ p.terms-txt a,
   z-index: 999;
   background-color: #fff;
   border: 1px solid #f8f8f8;
-  padding: 45px 35px;
+  padding: 35px 30px;
   margin-right: 35px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -2954,12 +2966,12 @@ p.terms-txt a,
 }
 
 #hero-4-form h4 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #hero-4-form p {
   color: #757575;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 /*------------------------------------------*/
@@ -3592,9 +3604,9 @@ p.terms-txt a,
 
 .request-form .form-control {
   border: 1px solid #ccc;
-  height: 55px;
+  height: 50px;
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 22px;
   -webkit-transition: all 400ms ease-in-out;
@@ -3602,6 +3614,7 @@ p.terms-txt a,
   -o-transition: all 400ms ease-in-out;
   -ms-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
+  cursor: pointer;
 }
 /*------------------------------------------*/
 /*  Hero Request Form Placeholder
@@ -6678,6 +6691,8 @@ h5.posts-category {
 .footer {
   padding-top: 100px;
   padding-bottom: 30px;
+  background-color: #312a42;
+  color: #ffffff;
 }
 
 .footer-info p {
@@ -6726,6 +6741,7 @@ img.footer-logo {
 .footer h5 {
   line-height: 1;
   margin-bottom: 25px;
+  color: #ffffff;
 }
 
 /*------------------------------------------*/

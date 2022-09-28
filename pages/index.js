@@ -75,12 +75,16 @@ const Home = () => {
               <div className="col-md-6">
                 <div className="hero-4-txt white-color">
                   {/* Title */}
-                  <h2 className="h2-lg">Welcome to Proven</h2>
-                  <h3>Competence & Skill delivered professionally.</h3>
-                  <p className="p-xl">
-                    We provides a unique market place where skilled informal
-                    service providers meet and interact with customers who need
-                    their services in a professional manner.
+                  <h2 className="h2-lg">
+                    <strong>
+                      Competence and Skill delivered professionally.
+                    </strong>
+                  </h2>
+                  {/* <h3>Competence and Skill delivered professionally.</h3> */}
+                  <p className="p-xl mt-3">
+                    We strive to provide a unique market place where skilled
+                    informal service providers meet and interact with customers
+                    who need their services in a professional manner.
                   </p>
                   {/* List
                   <ul className="simple-list">
@@ -123,141 +127,89 @@ const Home = () => {
             </svg>
           </div>
         </section>
-        <section id="features-2" className="wide-30 features-section division">
+        <section id="features-8" className="wide-60 features-section division">
           <div className="container">
-            <div className="fbox-2-wrapper text-center">
-              <div className="row justify-content-center">
-                <div className="col-lg-10 col-xl-8">
-                  <div className="section-title title-01 mb-70">
-                    <h2 className="h4-md">Our Main Services</h2>
-                  </div>
+            {/* SECTION TITLE */}
+            <div className="row justify-content-center">
+              <div className="col-lg-10 col-xl-8">
+                <div className="section-title title-01 mb-30">
+                  <h2 className="h2-md">
+                    <strong>Our Main Services</strong>
+                  </h2>
                 </div>
-              </div>
-              <div className="row row-cols-3 row-cols-md-5">
-                <div className="col"></div>
-                <div className="col">
-                  <div className="fbox-2 mb-5 wow fadeInUp">
-                    <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
-                      <img
-                        className="ico-bkg"
-                        src="/images/ico-bkg.png"
-                        alt="ico-bkg"
-                      />
-                      <span className="flaticon-double-click" />
-                    </div>
-                    <div className="fbox-txt-center">
-                      <h5 className="h5-md">Plumbing</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="fbox-2 mb-5 wow fadeInUp">
-                    <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
-                      <img
-                        className="ico-bkg"
-                        src="/images/ico-bkg.png"
-                        alt="ico-bkg"
-                      />
-                      <span className="flaticon-double-click" />
-                    </div>
-                    <div className="fbox-txt-center">
-                      <h5 className="h5-md">Plumbing</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="fbox-2 mb-5 wow fadeInUp">
-                    <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
-                      <img
-                        className="ico-bkg"
-                        src="/images/ico-bkg.png"
-                        alt="ico-bkg"
-                      />
-                      <span className="flaticon-double-click" />
-                    </div>
-                    <div className="fbox-txt-center">
-                      <h5 className="h5-md">Masonry</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col"></div>
               </div>
             </div>
-            {/* END FEATURES-2 WRAPPER */}
+            {/* FEATURES-8 WRAPPER */}
+            <div className="fbox-8-wrapper text-center">
+              <div className="row row-cols-1 row-cols-md-3">
+                {/* FEATURE BOX #1 */}
+                <div className="col">
+                  <div className="fbox-8 mb-40 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img">
+                      <img
+                        className="img-fluid"
+                        src="/images/electricity.png"
+                        alt="feature-icon"
+                      />
+                    </div>
+                    {/* Title */}
+                    <h5 className="h5-md">Electrical Services</h5>
+                    {/* Text */}
+                    {/* <p className="p-lg">
+                      Feugiat primis ultrice semper lacus cursus feugiat undo
+                      primis ultrice a ligula an auctor tempus magnis
+                    </p> */}
+                  </div>
+                </div>
+                {/* FEATURE BOX #2 */}
+                <div className="col">
+                  <div className="fbox-8 mb-40 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img">
+                      <img
+                        className="img-fluid"
+                        src="/images/masonry.png"
+                        alt="feature-icon"
+                      />
+                    </div>
+                    {/* Title */}
+                    <h5 className="h5-md">Masonry Services</h5>
+                    {/* Text */}
+                    {/* <p className="p-lg">
+                      Feugiat primis ultrice semper lacus cursus feugiat undo
+                      primis ultrice a ligula an auctor tempus magnis
+                    </p> */}
+                  </div>
+                </div>
+                {/* FEATURE BOX #3 */}
+                <div className="col">
+                  <div className="fbox-8 mb-40 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img">
+                      <img
+                        className="img-fluid"
+                        src="/images/plumbing.png"
+                        alt="feature-icon"
+                      />
+                    </div>
+                    {/* Title */}
+                    <h5 className="h5-md">Plumbing Services</h5>
+                    {/* Text */}
+                    {/* <p className="p-lg">
+                      Feugiat primis ultrice semper lacus cursus feugiat undo
+                      primis ultrice a ligula an auctor tempus magnis
+                    </p> */}
+                  </div>
+                </div>
+              </div>
+              {/* End row */}
+            </div>
+            {/* END FEATURES-8 WRAPPER */}
           </div>
           {/* End container */}
         </section>
-        {/* <section id="features-8" className="wide-60 features-section division">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-10 col-xl-8">
-                <div className="section-title title-01 mb-70">
-                  <h2 className="h2-md">We’ve got you covered</h2>
-                  <p className="p-xl">
-                    For all pressing issues either at home or in other spaces
-                    that you cannot solve on your own we provide skilled and
-                    competent services at your convinience.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="fbox-8-wrapper text-center">
-              <div className="row row-cols-1 row-cols-md-3">
-                <div className="col">
-                  <div className="fbox-8 mb-40 wow fadeInUp">
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/myImages/img-1.jpg"
-                        alt="feature-icon"
-                      />
-                    </div>
-                    <h5 className="h5-md">Plumbing Services</h5>
-                    <p className="p-lg">
-                      We offer plumbing installations, maintenance and repair
-                      work, including tap repairs, tank repairs, toilet repairs
-                      and many more.
-                    </p>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="fbox-8 mb-40 wow fadeInUp">
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/myImages/img-2.jpg"
-                        alt="feature-icon"
-                      />
-                    </div>
-                    <h5 className="h5-md">Electrical Services</h5>
-                    <p className="p-lg">
-                      We offer electrical installations, maintenance and repair
-                      work, including outlet repairs, appliance repairs, wiring
-                      system repairs and many more.
-                    </p>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="fbox-8 mb-40 wow fadeInUp">
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/myImages/img-3.jpg"
-                        alt="feature-icon"
-                      />
-                    </div>
-                    <h5 className="h5-md">Masonry services</h5>
-                    <p className="p-lg">
-                      We offer masonry installations, maintenance and repair
-                      work, including tiling, cabro, waterproofing and many
-                      more.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
+
         <hr className="divider" />
         <section
           id="statistic-2"
