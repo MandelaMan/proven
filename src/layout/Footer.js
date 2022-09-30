@@ -77,7 +77,7 @@ const Footer = () => {
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="#">Terms of Use</a>
+                    <a href="/terms">Terms and Conditions</a>
                   </p>
                 </li>
                 <li>

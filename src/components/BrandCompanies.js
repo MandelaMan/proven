@@ -6,9 +6,7 @@ const BrandCompanies = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="brands-title text-center">
-              <p className="p-xl">
-                Companies that depend on us to provide services...
-              </p>
+              <p className="p-xl">Our partners</p>
             </div>
           </div>
         </div>

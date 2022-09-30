@@ -82,9 +82,9 @@ const Home = () => {
                   </h2>
                   {/* <h3>Competence and Skill delivered professionally.</h3> */}
                   <p className="p-xl mt-3">
-                    We strive to provide a unique market place where skilled
-                    informal service providers meet and interact with customers
-                    who need their services in a professional manner
+                    Proven provides a unique market place where skilled informal
+                    service providers meet and interact with customers who need
+                    their services in a professional manner
                   </p>
                   {/* List
                   <ul className="simple-list">
@@ -104,19 +104,13 @@ const Home = () => {
                   </ul> */}
                 </div>
               </div>
-              {/* END HERO TEXT */}
-              {/* HERO REQUEST FORM */}
               <div className="col-md-6 col-xl-5 offset-xl-1">
                 <div id="hero-4-form">
                   <ServiceForm />
                 </div>
               </div>
-              {/* END HERO REQUEST FORM */}
             </div>
-            {/* End row */}
           </div>
-          {/* End container */}
-          {/* WAVE SHAPE BOTTOM */}
           <div className="wave-shape-bottom">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
               <path
@@ -139,13 +133,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* FEATURES-8 WRAPPER */}
             <div className="fbox-8-wrapper text-center">
               <div className="row row-cols-1 row-cols-md-3">
-                {/* FEATURE BOX #1 */}
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
-                    {/* Image */}
                     <div className="fbox-img">
                       <img
                         className="img-fluid"
@@ -153,7 +144,6 @@ const Home = () => {
                         alt="feature-icon"
                       />
                     </div>
-                    {/* Title */}
                     <h5 className="h5-md">Electrical Services</h5>
                     {/* Text */}
                     {/* <p className="p-lg">
@@ -209,59 +199,67 @@ const Home = () => {
           </div>
           {/* End container */}
         </section>
-
-        <hr className="divider" />
-        <section
-          id="statistic-2"
-          className="wide-100 statistic-section division"
-        >
+        <section id="statistic-3" className="bg-02 statistic-section division">
           <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-6">
-                <div className="txt-block right-column wow fadeInLeft">
-                  <h3 className="h3-xs">
-                    More than 50,000 people use Proven to source for Electrical,
-                    Plumbing and Masonary professionals
-                  </h3>
-                </div>
-              </div>
-              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
-                <div className="statistic-block wow fadeInUp">
-                  <h2 className="h2-title-xs statistic-number">
-                    <span className="count-element">
-                      <Counter end={3} />
-                    </span>
-                    K
-                  </h2>
-                  <p className="p-lg mt-20">
-                    Number of servered <br /> customers per month
-                  </p>
-                </div>
-              </div>
-              <div className="col-sm-5 col-md-4 col-lg-2">
-                <div className="statistic-block wow fadeInUp">
-                  <h2 className="h2-title-xs statistic-number">
-                    <Counter end={9.5} decimals={1} />
-                    /10
-                  </h2>
-                  <div className="txt-block-rating ico-15 yellow-color">
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-1" />
-                    <span className="flaticon-star-half-empty" />
+            <div className="statistic-3-wrapper white-color text-center">
+              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div className="col">
+                  <div className="statistic-block mb-40 wow fadeInUp">
+                    <div className="statistic-ico ico-65">
+                      <span className="flaticon-alarm-clock" />
+                    </div>
+                    <h3 className="h3-md statistic-number">
+                      1,
+                      <Counter end={500} />
+                    </h3>
+                    <p className="p-lg txt-400">Total Hours Worked</p>
                   </div>
-                  <p className="p-lg txt-400">Customer's Rating</p>
+                </div>
+                <div className="col">
+                  <div className="statistic-block mb-40 wow fadeInUp">
+                    <div className="statistic-ico ico-65">
+                      <span className="flaticon-map" />
+                    </div>
+                    <h3 className="h3-md statistic-number">
+                      Nairobi
+                      {/* 3,
+                      <Counter end={889} /> */}
+                    </h3>
+                    <p className="p-lg txt-400">Area of Operation</p>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="statistic-block mb-40 wow fadeInUp">
+                    <div className="statistic-ico ico-65">
+                      <span className="flaticon-speech-bubble-3" />
+                    </div>
+
+                    <h3 className="h3-md statistic-number">
+                      <Counter end={24} />
+                      /<Counter end={7} />
+                    </h3>
+                    <p className="p-lg txt-400">Time of Operation</p>
+                  </div>
+                </div>
+
+                <div className="col">
+                  <div className="statistic-block mb-40 wow fadeInUp">
+                    <div className="statistic-ico ico-65">
+                      <span className="flaticon-user" />
+                    </div>
+
+                    <h3 className="h3-md statistic-number">
+                      1,
+                      <Counter end={500} />
+                    </h3>
+                    <p className="p-lg txt-400">Trust Customers</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
         <hr className="divider" />
         {/* <section
           id="solution"
