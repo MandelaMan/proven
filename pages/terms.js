@@ -18,484 +18,398 @@ const terms = () => {
                 <h2 className="h2-md">Our Terms &amp; Conditions</h2>
               </div>
               <hr className="divider" />
-              <div className="terms-box mt-60">
-                <p className="p-lg">
-                  Donec sodales, nibh vel (the{" "}
-                  <span className="txt-500">{`"Terms"`}</span>) tristique
-                  aliquet, nisi libero suscipit diam, sed tempus ante nulla
-                  purus. Donec dolor magna, a suscipit in magna dignissim,
-                  porttitor an hendrerit diam. Nunc gravida ultrices faucibus.
-                  Aliquet lorem purus, quis mollis nisi laoreet at vitae. Mauris
-                  consequat tortor duis fermentum a massa
+              <div className="terms-box mt-30">
+                <p className="p-md">
+                  This User Agreement (this{" "}
+                  <span className="txt-500">“Agreement”</span>) is a contract
+                  between You and Proven App Limited. You must read, agree to,
+                  and accept all the terms and conditions contained in this
+                  Agreement to use Our Services. This Agreement includes and
+                  hereby incorporates by reference other important agreements
+                  and documents, as they may be in effect and modified from time
+                  to time.
                 </p>
-                {/* Text */}
-                <p className="p-lg">
-                  Sagittis congue augue egestas volutpat egestas magna suscipit
-                  egestas magna ipsum vitae purus efficitur and ipsum primis in
-                  cubilia laoreet augue egestas luctus donec diam. Libero
-                  curabitur dapibus quisque tristique neque blandit tristique
-                  justo aliquam. Aliquam{" "}
-                  <a href="#" className="skyblue-color">
-                    molestie nunc sapien justo
-                  </a>
-                  , aliquet non molestie sed, venenatis nec purus. Aliquam eget
-                  lacinia elit. Vestibulum tincidunt tincidunt massa, et
-                  porttitor justo suscipit
+                <p className="p-md">
+                  <span className="txt-500">
+                    <b>
+                      YOU UNDERSTAND THAT BY USING OUR SERVICES AND/OR ACCESSING
+                      THE PLATFORM YOU AGREE TO BE BOUND BY THIS AGREEMENT.{" "}
+                    </b>
+                  </span>
                 </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Processing of your data</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Donec sodales, nibh vel tristique aliquet, nisi libero
-                  suscipit diam, sed tempus ante nulla ut purus. Donec dolor
-                  magna aliquet suscipit in magna dignissim, porttitor
-                  hendrerit. Nunc gravida ultrices a felis faucibus. Praesent
-                  lorem purus, quis mollis nisi laoreet vitae. Mauris nec
-                  consequat tortor
+                <p className="p-md">
+                  <span className="txt-500">
+                    <b>
+                      IF YOU DO NOT ACCEPT THE TERMS OF SERVICE IN ITS ENTIRETY,
+                      YOU MUST NOT ACCESS THE PLATFORM OR USE OUR SERVICES.
+                    </b>
+                  </span>
                 </p>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor congue magna nihil impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien sem congue tempor gravida and donec enim ipsum porta
-                  justo integer velna a purus efficitur ipsum primis in cubilia
-                  laoreet augue egestas luctus donec purus and blandit sodales
-                </p>
-                {/* List */}
-                <ul className="simple-list">
+
+                <h6 className="h6-lg bold-me">Contents</h6>
+
+                <ol className="simple-list">
                   <li className="list-item">
                     <p className="p-md">
-                      <span className="txt-500">Email address</span> euismod
-                      purus pretium purus pretium ligula rutrum tempor mullam
-                      blandit tempor sapien and gravida donec ipsum at justo
-                      turpis urna augue, viverra a augue eget
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">Payment data</span> vitae auctor
-                      a congue magna tempor sapien gravida laoreet turpis urna
-                      augue, viverra a augue eget, dictum tempor diam pulvinar
-                      consectetur purus efficitur ipsum primis in cubilia
-                      laoreet augue donec, dictum tempor
-                    </p>
-                  </li>
-                </ul>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor congue magna nihil impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien sem congue tempor gravida donec enim ipsum porta justo
-                  integer odio velna a purus efficitur ipsum primis in cubilia
-                  laoreet augue egestas luctus donec purus and blandit sodales
-                </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Collection of information</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  In at mauris vel nisl convallis porta at vitae dui. Nam lacus
-                  ligula, vulputate mullam molestie bibendum quis, aliquet massa
-                  elementum. Vestibulum ut sagittis massa lorem fusce cursus
-                  est. Fusce non nulla vitae massa placerat vulputate vel purus.
-                  Aliqum blandit tempor undo sapien pulvinar consectetur nibh,
-                  vel imperdiet dui varius viverra.
-                </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX #3 */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">
-                  Authorized user accounts and account security
-                </h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Suscipit in magna dignissim, porttitor hendrerit diam. Nunc
-                  gravida ultrices felis eget faucibus. Praesent aliquet lorem
-                  purus, quis mollis nisi laoreet vitae.{" "}
-                  <a href="#" className="skyblue-color">
-                    {" "}
-                    Mauris nec consequat tortor.
-                  </a>{" "}
-                  Duis fermentum a massa in convallis quisque eu interdum augue.
-                </p>
-                {/* Text */}
-                <p className="p-lg">
-                  In at mauris vel nisl convallis porta at vitae dui. Nam lacus
-                  ligula, vulputate mullam molestie bibendum quis, aliquet massa
-                  elementum. Vestibulum ut sagittis massa lorem fusce cursus
-                  est. Fusce non nulla vitae massa placerat vulputate vel purus.
-                  Aliqum blandit tempor undo
-                </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Prohibited conduct and content</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Sagittis congue augue egestas volutpat egestas magna suscipit
-                  egestas magna ipsum vitae purus efficitur ipsum primis in
-                  cubilia laoreet augue egestas luctus donec diam. Curabiturac
-                  dapibus libero. Quisque eu tristique neque. Phasellus blandit
-                  tristique justo ut aliquam. Aliquam vitae{" "}
-                  <a href="#" className="skyblue-color">
-                    molestie nunc sapien justo
-                  </a>
-                  , aliquet non molestie sed, venenatis nec purus. Aliquam eget
-                  lacinia elit. Vestibulum tincidunt tincidunt massa, et
-                  porttitor justo.
-                </p>
-                {/* List */}
-                <ul className="simple-list">
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Quaerat sodales sapien undo euismod purus blandit velna
-                      </span>{" "}
-                      vitae auctor a congue magna tempor sapien eget gravida
-                      laoreet turpis urna augue, viverra a augue eget, dictum
-                      tempor diam pulvinar consectetur purus efficitur ipsum
-                      primis in cubilia laoreet augue donec
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Nemo ipsam egestas volute turpis dolores
-                      </span>{" "}
-                      ut aliquam quaerat sodales sapien congue augue egestas
-                      volutpat egestas magna suscipit egestas magna ipsum vitae
-                      purus efficitur ipsum primis in cubilia undo pretium a
-                      purus pretium ligula
-                    </p>
-                  </li>
-                </ul>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX #5 */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Your responsibilities</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor congue magna nihil impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien sem congue tempor gravida donec enim ipsum porta justo
-                  integer odio velna a purus efficitur ipsum primis in cubilia
-                  laoreet augue egestas luctus donec purus and blandit sodales
-                </p>
-                {/* List */}
-                <ul className="simple-list">
-                  <li className="list-item">
-                    <p className="p-lg">
-                      Donec dolor magna, suscipit in magna dignissim, porttitor
-                      hendrerit diam. Nunc gravida ultrices felis eget faucibus.
-                      Praesent aliquet tempus, blandit posuere ligula varius
-                      congue cursus
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      Aliquam varius neque commodo purus vulputate pharetra
-                      bibendum in ante ornare metus
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      Morbi dui lectus, lobortis sit amet felis nec, suscipit
-                      imperdiet sapien semper ultrices
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      Nulla tincidunt volutpat tincidunt. Pellentesque habitant
-                      morbi tristique senectus et netus and famesa malesuada
-                      augue suscipit, luctus neque purus ipsum neque dolor
-                      primis
-                    </p>
-                  </li>
-                </ul>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Availability of services</h5>
-                {/* List */}
-                <ul className="simple-list">
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Nemo ipsam egestas volute turpis dolores
-                      </span>{" "}
-                      ut aliquam quaerat sodales sapien congue augue egestas
-                      volutpat egestas magna suscipit egestas magna ipsum vitae
-                      purus efficitur ipsum primis in cubilia undo pretium a
-                      purus pretium ligula
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Quaerat sodales sapien undo euismod purus blandit velna
-                      </span>{" "}
-                      vitae auctor a congue magna tempor sapien eget gravida
-                      laoreet turpis urna augue, viverra a augue eget, dictum
-                      tempor diam pulvinar consectetur purus efficitur ipsum
-                      primis in cubilia laoreet augue donec
-                    </p>
-                  </li>
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Fringilla risus nec, luctus mauris orci auctor
+                      <span className="txt-200">
+                        Definition and Interpretation of Terms
                       </span>
-                      euismod purus pretium purus pretium ligula rutrum tempor
-                      mullam blandit tempor sapien and gravida donec ipsum at
-                      justo quis vehicula magna luctus tempor. Quisque laoreet
-                      turpis urna augue, viverra a augue eget, dictum tempor
-                      diam. Sed pulvinar consectetur and placerat imperdiet dui
-                      varius viverra
-                    </p>
-                  </li>
-                </ul>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Term for storing personal data</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Donec sodales, nibh vel tristique aliquet, nisi libero
-                  suscipit diam, sed tempus ante nulla purus. Donec dolor magna,
-                  suscipit in magna dignissim, porttitor hendrerit diam. Nunc
-                  gravida
-                </p>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor and congue magna impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien sem congue tempor undo donec gravida enim ipsum porta
-                  justo integer odio velna a purus efficitur and ipsum primis
-                  cubilia laoreet augue egestas luctus donec purus and blandit
-                  sodales
-                </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Warranty limitations</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Ut non mauris libero. Sed consequat posuere nunc, eu porttitor
-                  neque dignissim donec bibendum a sodales elit blandit.
-                  Suspendisse at finibus metus. Integer nulla quam, pulvinar
-                  fermentum a commodo undo pulvinar sed nisi. Sed augue turpis,
-                  mollis a vehicula ornare, dapibus
-                </p>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor congue magna nihil impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien sem congue tempor gravida an donec enim ipsum porta
-                  justo integer odio velna a purus efficitur ipsum primis in
-                  cubilia laoreet egestas and luctus donec purus and blandit
-                  sodales
-                </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX #9 */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Notices</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Maecenas gravida porttitor nunc, quis vehicula magna luctus
-                  tempor. Quisque laoreet turpis urna augue, viverra a augue
-                  eget, dictum tempor diam. Sed pulvinar consectetur and
-                  placerat imperdiet dui varius viverra. Pellentesque ac massa
-                  lorem fusce cursus aliquet elementum
-                </p>
-                {/* List */}
-                <ul className="simple-list">
-                  <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Quaerat sodales sapien undo euismod purus blandit velna
-                      </span>{" "}
-                      vitae auctor a congue magna tempor sapien eget gravida
-                      laoreet turpis urna augue, viverra a augue eget, dictum
-                      tempor diam pulvinar consectetur purus efficitur ipsum
-                      primis in cubilia laoreet augue donec
                     </p>
                   </li>
                   <li className="list-item">
-                    <p className="p-lg">
-                      <span className="txt-500">
-                        Fringilla risus nec, luctus mauris orci auctor
+                    <p className="p-md">
+                      <span className="txt-200">
+                        Proven App Limited Services
                       </span>
-                      euismod purus pretium purus pretium ligula rutrum tempor
-                      mullam blandit tempor sapien and gravida donec ipsum at
-                      justo quis vehicula magna luctus tempor. Quisque laoreet
-                      turpis urna augue, viverra a augue eget, dictum tempor
-                      diam. Sed pulvinar consectetur and placerat imperdiet dui
-                      varius viverra
-                    </p>
-                  </li>
-                </ul>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Third Party Beneficiary</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor congue magna nihil impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien sem congue tempor gravida at donec enim ipsum porta
-                  justo integer odio velna a purus ipsum primis in cubilia
-                  laoreet undo augue egestas luctus donec purus and blandit
-                  sodales
-                </p>
-                {/* Text */}
-                <p className="p-lg">
-                  Donec sodales, nibh vel tristique aliquet, nisi libero
-                  suscipit diam, sed tempus ante nulla purus. Donec dolor
-                  suscipit and magna, in magna dignissim, porttitor hendrerit
-                  nunc gravida ultrices felis. Quisque eleifend arcu ac tellus
-                  cursus, nec vehicula diam tempus. Nam ut sapien et mi congue
-                  tincidunt. Phasellus in exneque.
-                </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-              {/* TERMS BOX */}
-              <div className="terms-box">
-                {/* Title */}
-                <h5 className="h5-xl">Other Terms</h5>
-                {/* Text */}
-                <p className="p-lg">
-                  Aliqum mullam blandit tempor sapien gravida donec ipsum, at
-                  porta justo. Velna vitae auctor congue magna nihil impedit
-                  ligula risus. Mauris donec ociis et magnis sapien sagittis
-                  sapien congue tempor gravida a donec enim ipsum porta justo
-                  integer velna a purus efficitur ipsum primis in cubilia
-                  laoreet an augue egestas luctus donec purus and blandit
-                  sodales
-                </p>
-                {/* Text */}
-                <p className="p-lg">
-                  Sagittis congue augue egestas volutpat egestas magna suscipit
-                  egestas magna ipsum vitae purus efficitur ipsum primis in
-                  cubilia laoreet augue egestas luctus donec diam. Curabitur ac
-                  dapibus ibero. Quisque undo tristique neque phasellus blandit
-                  non tristique justo ut aliquam. Aliquam vitae{" "}
-                  <a href="#" className="skyblue-color">
-                    {" "}
-                    molestie nunc sapien justo
-                  </a>
-                  , aliquet molestie sed, venenatis nec purus. Aliquam eget
-                  lacinia elit. Vestibulum tincidunt tincidunt
-                </p>
-                {/* List */}
-                <ul className="simple-list">
-                  <li className="list-item">
-                    <p className="p-lg">
-                      Donec dolor magna, suscipit in magna dignissim, porttitor
-                      hendrerit diam. Nunc gravida ultrices a faucibus felis.
-                      Praesent aliquet tempus, blandit posuere ligula varius
-                      congue cursus
                     </p>
                   </li>
                   <li className="list-item">
-                    <p className="p-lg">
-                      Aliquam varius neque commodo purus vulputate pharetra
-                      bibendum in ante ornare metus
+                    <p className="p-md">
+                      <span className="txt-200">
+                        Relationship between the Parties
+                      </span>
                     </p>
                   </li>
                   <li className="list-item">
-                    <p className="p-lg">
-                      Morbi dui lectus, lobortis sit amet felis nec, suscipit
-                      imperdiet sapien semper ultrices. Nulla tincidunt purus
-                      volutpat at tincidunt. Habitant morbi tristique senectus
-                      et netus malesuada famesa augue suscipit a luctus neque
-                      purus ipsum neque dolor
+                    <p className="p-md">
+                      <span className="txt-200">Registration and account</span>
                     </p>
                   </li>
-                </ul>
-                {/* Text */}
-                <p className="p-lg">
-                  Suscipit in magna dignissim, porttitor hendrerit diam. Nunc
-                  gravida ultrices felis eget faucibus. Praesent and aliquet
-                  lorem purus, quis mollis nisi laoreet vitae.{" "}
-                  <a href="#" className="skyblue-color">
-                    {" "}
-                    Mauris nec consequat tortor
-                  </a>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Duration of the Agreement</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">
+                        Rules of Conduct in Connection with Use of Our Platform
+                      </span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">
+                        Rules of Conduct with regards to Independent Contractor
+                      </span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Payments</span>
+                      <br />
+                      <span className="txt-100">
+                        8.1. Payment to Independent Contractor
+                      </span>
+                      <br />
+                      <span className="txt-100">8.2. Payment to Us</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Warranties</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Non Circumvention</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Intellectual Property</span>
+                      <br />
+                      <span className="txt-100">11.1. Ownership</span>
+                      <br />
+                      <span className="txt-100">11.2. Restrictions</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Confidentiality</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Privacy</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">
+                        Disclosure of Personal Information
+                      </span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Limitation of Liability</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Indemnity</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Insurance claims</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Loss of property</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Assignment</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Termination</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Variation of Agreement</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Governing law</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Dispute resolution</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Notices</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Force Majeure</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Entire Agreement</span>
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-md">
+                      <span className="txt-200">Severability</span>
+                    </p>
+                  </li>
+                </ol>
+                <p className="p-md">
+                  In consideration of the payment of the service fees as herein
+                  provided, We agree to provide Our Services to You under the
+                  terms hereunder.
                 </p>
-              </div>{" "}
-              {/* END TERMS BOX */}
-            </div>{" "}
-            {/* END TERMS CONTENT */}
-          </div>{" "}
-          {/* End row */}
-        </div>{" "}
-        {/* End container */}
-      </section>
-      {/* END TERMS & PRIVACY */}
-      {/* CALL TO ACTION-1
-              ============================================= */}
-      <section id="cta-1" className="bg-snow cta-section division">
-        <div className="container">
-          <div className="rel bg-white cta-1-wrapper">
-            <div className="row d-flex align-items-center">
-              {/* CALL TO ACTION TEXT */}
-              <div className="col-lg-8">
-                <div className="cta-1-txt">
-                  <h4 className="h4-xl">
-                    Try OLMO free for 14 days. Start your trial now and pick a
-                    plan later
-                  </h4>
-                </div>
               </div>
-              {/* CALL TO ACTION BUTTON */}
-              <div className="col-lg-4">
-                <div className="text-end">
-                  <div className="cta-1-btn text-center">
-                    <Link href="/pricing">
-                      <a className="btn btn-skyblue tra-grey-hover">
-                        Get Started Now
-                      </a>
-                    </Link>
-                    <p>
-                      <a href="#">Read The FAQs</a>
+              <div className="terms-box">
+                <h5 className="h5-lg">
+                  Definition and Interpretation of Terms
+                </h5>
+                <p className="p-md">
+                  In this Contract, unless the context otherwise requires, the
+                  following expressions shall have the following meanings:
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Client”</span>&nbsp;means
+                  the person, natural or legal, who obtains Skilled Services
+                  from the Independent Contractor through the Proven App
+                  Platform.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">
+                    “Confidential Information”
+                  </span>
+                  &nbsp;means know-how, trade secrets and other information of a
+                  confidential nature (including, without limitation, all
+                  proprietary technical, industrial and commercial information,
+                  customers’ and suppliers’ data and techniques in whatever form
+                  held as well as any information regarding the business and the
+                  contents of this Agreement) disclosed by one party(discloser)
+                  to another party(recipient) verbally, in writing, or by
+                  inspection of tangible objects; and excludes any information
+                  that was:
+                </p>
+                <ol className="simple-list" type="I">
+                  <li className="list-item">
+                    <p className="p-md">
+                      previously known to the recipient without an obligation of
+                      confidentiality;
                     </p>
-                  </div>
-                </div>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-lg">
+                      acquired by the recipient from a third party with the
+                      right to make such disclosure;
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-lg">
+                      which becomes publicly available through no fault of the
+                      recipient.
+                    </p>
+                  </li>
+                </ol>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Contract”</span>
+                  &nbsp;means this agreement and the terms and conditions
+                  contained herein.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Dispute”</span>
+                  &nbsp;means any dispute, action, claim, controversy or cause
+                  of action among the parties arising out of or in connection
+                  with this agreement or any term, condition or provision
+                  hereof, relating to the existence, validity, interpretation,
+                  construction, performance, enforcement and termination of this
+                  agreement.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Effective Date”</span>
+                  &nbsp;means the date from which this Agreement comes into
+                  effect.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">
+                    “Independent Contractor”
+                  </span>
+                  &nbsp;means the person, natural or legal, who provides Skilled
+                  Services to You through the Proven App Platform.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Marks”</span>
+                  &nbsp;means trademarks, service marks, trade names,
+                  copyrights, logos, slogans and other identifying symbols of a
+                  party.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Our Fees”</span>
+                  &nbsp;means the applicable fee payable to Us by You as
+                  consideration for the use of Our Services.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Our Services”</span>
+                  &nbsp;means the services We render to You pursuant to this
+                  contract and include but is not limited to:
+                </p>
+                <ol className="simple-list" type="I">
+                  <li className="list-item">
+                    <p className="p-md">
+                      Our Independent Contractor matching service where We
+                      provide You with contact details and relevant information
+                      relating to, or otherwise facilitating connections with an
+                      Independent Contractor to provide the needed skilled
+                      service.
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-lg">
+                      Our Escrow services whereby We hold any asset of value or
+                      money, prepaid by You, on behalf of the Independent
+                      Contractor and Yourself pursuant to a Service Agreement as
+                      You receive the skilled service of the Independent
+                      Contractor.
+                    </p>
+                  </li>
+                </ol>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Personal Data”</span>
+                  &nbsp;means any information obtained in connection with this
+                  Agreement:
+                </p>
+                <ol className="simple-list" type="I">
+                  <li className="list-item">
+                    <p className="p-md">
+                      relating to an identified or identifiable natural person;
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-lg">
+                      that can reasonably be used to identify or authenticate an
+                      individual, including but not limited to name, contact
+                      information, precise location information, persistent
+                      identifiers; and
+                    </p>
+                  </li>
+                  <li className="list-item">
+                    <p className="p-lg">
+                      any information that may otherwise be considered “personal
+                      data” or “personal information” under the applicable law.
+                    </p>
+                  </li>
+                </ol>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Platform”</span>
+                  &nbsp;means Proven App Platform.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Proven App Platform”</span>
+                  &nbsp;means an online interface in the form of any software
+                  including a website or a part thereof and applications
+                  including, the website, on the domain name, www.proven.co.ke
+                  and the Proven mobile applications.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">
+                    “Schedule of Service Charges”
+                  </span>
+                  &nbsp;means the schedule attached hereto.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Service Agreement”</span>
+                  &nbsp;means any agreement, written, oral, express or implied,
+                  entered into between You and the Independent Contractor for
+                  the provision of Skilled Services, and to which We are not a
+                  party.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Service Charges”</span>
+                  &nbsp;means the consideration paid to Ourselves.
+                </p>
+                <p className="p-md">
+                  <span className="txt-500 bold-me">“Skilled Services”</span>
+                  &nbsp;means a service requiring specialized knowledge and
+                  skill.
+                </p>
+                <p className="p-md">
+                  Reference to&nbsp;
+                  <span className="txt-500 bold-me">“You”</span>&nbsp;or&nbsp;
+                  <span className="txt-500 bold-me">“Your”</span>
+                  means the Client.
+                </p>
+                <p className="p-md">
+                  Reference to&nbsp;
+                  <span className="txt-500 bold-me">“Us”</span>&nbsp;
+                  <span className="txt-500 bold-me">“Our”</span>&nbsp;or&nbsp;
+                  <span className="txt-500 bold-me">“We”</span>
+                  means Proven App Limited and its affiliates.
+                </p>
+                <p className="p-md">
+                  The words&nbsp;
+                  <span className="txt-500 bold-me">“including”</span>
+                  &nbsp;and&nbsp;
+                  <span className="txt-500 bold-me">“include”</span>
+                  &nbsp;maean&nbsp;
+                  <span className="txt-500 bold-me">
+                    “including but not limited to”
+                  </span>
+                  &nbsp; means the Client.
+                </p>
               </div>
             </div>
-          </div>{" "}
-          {/* End row */}
-        </div>{" "}
-        {/* End container */}
+          </div>
+        </div>
       </section>
     </Layout>
   );
