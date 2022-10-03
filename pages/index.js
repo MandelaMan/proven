@@ -138,11 +138,13 @@ const Home = () => {
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     <div className="fbox-img">
-                      <img
-                        className="img-fluid"
-                        src="/images/electricity.png"
-                        alt="feature-icon"
-                      />
+                      <Link href="/services/#electrical">
+                        <img
+                          className="img-fluid point-me"
+                          src="/images/electricity.png"
+                          alt="feature-icon"
+                        />
+                      </Link>
                     </div>
                     <h5 className="h5-md">Electrical Services</h5>
                     {/* Text */}
@@ -157,11 +159,13 @@ const Home = () => {
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     {/* Image */}
                     <div className="fbox-img">
-                      <img
-                        className="img-fluid"
-                        src="/images/masonry.png"
-                        alt="feature-icon"
-                      />
+                      <Link href="/services/#masonry">
+                        <img
+                          className="img-fluid point-me"
+                          src="/images/masonry.png"
+                          alt="feature-icon"
+                        />
+                      </Link>
                     </div>
                     {/* Title */}
                     <h5 className="h5-md">Masonry Services</h5>
@@ -177,11 +181,13 @@ const Home = () => {
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     {/* Image */}
                     <div className="fbox-img">
-                      <img
-                        className="img-fluid"
-                        src="/images/plumbing.png"
-                        alt="feature-icon"
-                      />
+                      <Link href="/services/#plumbing">
+                        <img
+                          className="img-fluid point-me"
+                          src="/images/plumbing.png"
+                          alt="feature-icon"
+                        />
+                      </Link>
                     </div>
                     {/* Title */}
                     <h5 className="h5-md">Plumbing Services</h5>

@@ -109,6 +109,9 @@ const Navigation = ({
                     <li>
                       <Link href="/services/#masonry">Masonry</Link>
                     </li>
+                    <li>
+                      <Link href="/services/#solar">Solar</Link>
+                    </li>
                   </ul>
                 </li>
 

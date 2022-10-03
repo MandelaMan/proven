@@ -16,6 +16,10 @@ body {
   font-weight: 300;
 }
 
+.point-me{
+  cursor: pointer;
+}
+
 .center-me { 
   display: inline;
 }
