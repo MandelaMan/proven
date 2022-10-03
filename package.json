@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@sendgrid/mail": "^7.7.0",
     "dotenv": "^16.0.1",
+    "font-awesome": "^4.7.0",
     "isotope-layout": "^3.0.6",
     "lodash": "^4.17.21",
     "next": "12.2.2",
@@ -22,6 +26,7 @@
     "react-hook-form": "^6.8.2",
     "react-slick": "^0.28.1",
     "react-visibility-sensor": "^5.1.1",
+    "react-whatsapp": "^0.3.0",
     "slick-carousel": "^1.8.1",
     "wowjs": "^1.1.3"
   },

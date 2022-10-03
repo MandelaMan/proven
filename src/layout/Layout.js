@@ -6,6 +6,7 @@ import Footer from "./Footer";
 // import Header from "./Header";
 import Navigation from "./Navigation";
 import ScrollTop from "./ScrollTop";
+import ReactWhatsapp from "react-whatsapp";
 
 const Layout = ({
   children,
