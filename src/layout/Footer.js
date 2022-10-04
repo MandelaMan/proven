@@ -23,17 +23,12 @@ const Footer = () => {
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
+                    <a href="#">Impact</a>
+                  </p>
+                </li>
+                <li>
+                  <p className="p-md">
                     <a href="#">About Us</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
-                    <a href="#">Careers</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
-                    <a href="#">Press &amp; Media</a>
                   </p>
                 </li>
                 <li>
@@ -46,26 +41,26 @@ const Footer = () => {
           </div>
           <div className="col-sm-6 col-md-3 col-lg-2">
             <div className="footer-links mb-40">
-              <h6 className="h6-xl">Discover</h6>
+              <h6 className="h6-xl">Services</h6>
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="#">Our Blog</a>
+                    <a href="#">Electrical</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Advertising</a>
+                    <a href="#">Masonry</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Plans &amp; Pricing</a>
+                    <a href="#">Plumbing</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Testimonials</a>
+                    <a href="#">Solar</a>
                   </p>
                 </li>
               </ul>
@@ -82,17 +77,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Privacy Policy</a>
+                    <a href="/terms">Privacy Policy</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Cookie Policy</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
-                    <a href="#">Site Map</a>
+                    <a href="/terms">Cookie Policy</a>
                   </p>
                 </li>
               </ul>
@@ -105,21 +95,6 @@ const Footer = () => {
                 <li>
                   <p className="p-md">
                     <a href="#">FAQs</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
-                    <a href="#">Editor Help</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
-                    <a href="#">Community</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
-                    <a href="#">Live Chatting</a>
                   </p>
                 </li>
               </ul>

@@ -12,7 +12,7 @@ const ServiceForm = () => {
 
   const [subCategory, setSubCategory] = useState(undefined);
 
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset, errors } = useForm();
 
   const services = [
     {
@@ -54,19 +54,25 @@ const ServiceForm = () => {
 
       if (filtered.length > 0) {
         return (
-          <select
-            name="sub_category_service"
-            className="form-control form-select name"
-            aria-label="Default select example"
-            ref={register({
-              required: "Kindly select service",
-            })}
-          >
-            <option value="">Select a sub category</option>
-            {filtered.map((s, i) => (
-              <option value={`${s}`}>{s}</option>
-            ))}
-          </select>
+          <>
+            <select
+              name="sub_category_service"
+              className="form-control form-select name"
+              aria-label="Default select example"
+              ref={register({
+                required: "Kindly select service",
+              })}
+            >
+              <option value="">Select a sub category</option>
+              {filtered.map((s, i) => (
+                <option value={`${s}`}>{s}</option>
+              ))}
+            </select>
+            <span className="err-red">
+              {errors.sub_category_service &&
+                errors.sub_category_service.message}
+            </span>
+          </>
         );
       }
     }
@@ -170,6 +176,9 @@ const ServiceForm = () => {
                       </option>
                     ))}
                   </select>
+                  <span className="err-red">
+                    {errors.service && errors.service.message}
+                  </span>
                   {subCategoryList()}
                   <input
                     type="text"
@@ -182,6 +191,9 @@ const ServiceForm = () => {
                       required: "Enter full name",
                     })}
                   />
+                  <span className="err-red">
+                    {errors.name && errors.name.message}
+                  </span>
                 </div>
                 {/* Form Input */}
                 <div className="col-md-12">
@@ -200,6 +212,9 @@ const ServiceForm = () => {
                       },
                     })}
                   />
+                  <span className="err-red">
+                    {errors.email && errors.email.message}
+                  </span>
                 </div>
                 {/* Form Input */}
                 <div className="col-md-12">
@@ -214,6 +229,9 @@ const ServiceForm = () => {
                       required: "Enter phone number",
                     })}
                   />
+                  <span className="err-red">
+                    {errors.number && errors.number.message}
+                  </span>
                 </div>
                 {/* Form Button */}
                 <div className="col-md-12 form-btn mt-10">
