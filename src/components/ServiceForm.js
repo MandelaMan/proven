@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as Yup from "yup";
 import PreLoader from "../layout/PreLoader";
 import _ from "lodash";
 
@@ -12,7 +14,31 @@ const ServiceForm = () => {
 
   const [subCategory, setSubCategory] = useState(undefined);
 
-  const { register, handleSubmit, reset, errors } = useForm();
+  const serviceValidationSchema = Yup.object().shape({
+    service: Yup.string().required("Please select a service"),
+    sub_category_service: Yup.string().required("Please select a sub category"),
+    name: Yup.string().required("Please enter your name"),
+    email: Yup.string()
+      .required("Please provide an email address")
+      .email("Email is invalid"),
+    mobile_no: Yup.string()
+      .min(10, "Mobile number must be at least 10 characters")
+      .required("Please provide a mobile number"),
+    // password: Yup.string()
+    //   .min(6, "Password must be at least 6 characters")
+    //   .required("Password is required"),
+    // confirmPassword: Yup.string()
+    //   .oneOf([Yup.ref("password"), null], "Passwords must match")
+    //   .required("Confirm Password is required"),
+    // acceptTerms: Yup.bool().oneOf([true], "Accept Ts & Cs is required"),
+  });
+
+  const serviceFormOptions = { resolver: yupResolver(serviceValidationSchema) };
+
+  const { register, handleSubmit, reset, formState } =
+    useForm(serviceFormOptions);
+
+  const { errors } = formState;
 
   const services = [
     {
@@ -55,15 +81,16 @@ const ServiceForm = () => {
       if (filtered.length > 0) {
         return (
           <>
+            <span className="err-red">
+              {errors.sub_category_service?.message}
+            </span>
             <select
               name="sub_category_service"
               className="form-control form-select name"
               aria-label="Default select example"
-              ref={register({
-                required: "Kindly select service",
-              })}
+              {...register("sub_category_service")}
             >
-              <option value="">Select a sub category</option>
+              <option value="General services">General Services</option>
               {filtered.map((s, i) => (
                 <option value={`${s}`}>{s}</option>
               ))}
@@ -89,7 +116,7 @@ const ServiceForm = () => {
   const onSubmit = async (data) => {
     data["service"] = data.service.split("|")[1];
 
-    const response = await fetch("/api/mail", {
+    const response = await fetch("/api/request-service", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -97,7 +124,7 @@ const ServiceForm = () => {
       body: JSON.stringify(data),
     });
 
-    // console.log(response);
+    console.log(response);
 
     // if (!response.ok) {
     //   throw new Error(`Error: ${response.status}`);
@@ -156,13 +183,12 @@ const ServiceForm = () => {
               >
                 {/* Form Input */}
                 <div className="col-md-12">
+                  <span className="err-red">{errors.service?.message}</span>
                   <select
                     name="service"
                     className="form-control form-select name"
                     aria-label="Default select example"
-                    ref={register({
-                      required: "Kindly select service",
-                    })}
+                    {...register("service")}
                     onChange={(e) => {
                       !_.isEmpty(e.target.value)
                         ? setSubCategory(e.target.value.split("|")[0])
@@ -176,62 +202,42 @@ const ServiceForm = () => {
                       </option>
                     ))}
                   </select>
-                  <span className="err-red">
-                    {errors.service && errors.service.message}
-                  </span>
-                  {subCategoryList()}
+                </div>
+                <div className="col-md-12">{subCategoryList()}</div>
+                <div className="col-md-12">
+                  <span className="err-red">{errors.name?.message}</span>
                   <input
                     type="text"
                     name="name"
                     className="form-control name"
                     placeholder="Enter your full name*"
                     autoComplete="off"
-                    //   required
-                    ref={register({
-                      required: "Enter full name",
-                    })}
+                    {...register("name")}
                   />
-                  <span className="err-red">
-                    {errors.name && errors.name.message}
-                  </span>
                 </div>
-                {/* Form Input */}
+
                 <div className="col-md-12">
+                  <span className="err-red">{errors.email?.message}</span>
                   <input
                     type="text"
                     name="email"
                     className="form-control name"
                     placeholder="Enter your email*"
                     autoComplete="off"
-                    //   required
-                    ref={register({
-                      required: "Email field cannot be empty",
-                      pattern: {
-                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                        message: "Enter a valid email address",
-                      },
-                    })}
+                    {...register("email")}
                   />
-                  <span className="err-red">
-                    {errors.email && errors.email.message}
-                  </span>
                 </div>
-                {/* Form Input */}
+
                 <div className="col-md-12">
+                  <span className="err-red">{errors.mobile_no?.message}</span>
                   <input
                     type="number"
                     name="mobile_no"
                     className="form-control email"
                     placeholder="Enter your mobile no.*"
                     autoComplete="off"
-                    //   required
-                    ref={register({
-                      required: "Enter phone number",
-                    })}
+                    {...register("mobile_no")}
                   />
-                  <span className="err-red">
-                    {errors.number && errors.number.message}
-                  </span>
                 </div>
                 {/* Form Button */}
                 <div className="col-md-12 form-btn mt-10">
