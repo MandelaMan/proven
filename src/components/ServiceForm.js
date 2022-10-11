@@ -24,13 +24,14 @@ const ServiceForm = () => {
     mobile_no: Yup.string()
       .min(10, "Mobile number must be at least 10 characters")
       .required("Please provide a mobile number"),
+    acceptTerms: Yup.bool().oneOf([true], "Please read and accept Ts & Cs"),
     // password: Yup.string()
     //   .min(6, "Password must be at least 6 characters")
     //   .required("Password is required"),
     // confirmPassword: Yup.string()
     //   .oneOf([Yup.ref("password"), null], "Passwords must match")
     //   .required("Confirm Password is required"),
-    // acceptTerms: Yup.bool().oneOf([true], "Accept Ts & Cs is required"),
+    //
   });
 
   const serviceFormOptions = { resolver: yupResolver(serviceValidationSchema) };
@@ -239,6 +240,26 @@ const ServiceForm = () => {
                     {...register("mobile_no")}
                   />
                 </div>
+
+                <div className="col-md-12">
+                  <span className="err-red">{errors.acceptTerms?.message}</span>
+                  {errors.acceptTerms && (
+                    <>
+                      <br />
+                    </>
+                  )}
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="acceptTerms"
+                    {...register("acceptTerms")}
+                  />
+                  <label class="form-check-label" for="acceptTerms">
+                    &nbsp;&nbsp;I agree to&nbsp;
+                    <a href="/terms">Terms & Conditions</a>
+                  </label>
+                </div>
+
                 {/* Form Button */}
                 <div className="col-md-12 form-btn mt-10">
                   <button
