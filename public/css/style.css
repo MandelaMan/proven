@@ -1,7 +1,7 @@
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
   =========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -11,7 +11,7 @@ html {
 body {
   /* font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   /* font-family: 'Montserat', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #6c757d;
   line-height: 1.6666;
   font-weight: 300;

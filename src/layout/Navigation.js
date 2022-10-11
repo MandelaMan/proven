@@ -122,7 +122,7 @@ const Navigation = ({
                   <Link href="/contact-us">Contact us</Link>
                 </li>
                 <li className="nl-simple">
-                  <Link href="/about-us">Impact</Link>
+                  <Link href="/impact">Impact</Link>
                 </li>
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple">

@@ -23,17 +23,22 @@ const Footer = () => {
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="#">Impact</a>
+                    <a href="/impact">Impact</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">About Us</a>
+                    <a href="/about-us">About Us</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Contact Us</a>
+                    <a href="/contact-us">Contact Us</a>
+                  </p>
+                </li>
+                <li>
+                  <p className="p-md">
+                    <a href="/faqs">FAQs</a>
                   </p>
                 </li>
               </ul>
@@ -45,22 +50,22 @@ const Footer = () => {
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="#">Electrical</a>
+                    <a href="/services/#electrical">Electrical</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Masonry</a>
+                    <a href="/services/#masonry">Masonry</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Plumbing</a>
+                    <a href="/services/#plumbing">Plumbing</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Solar</a>
+                    <a href="/services/#solar">Solar</a>
                   </p>
                 </li>
               </ul>
@@ -75,7 +80,7 @@ const Footer = () => {
                     <a href="/terms">Terms and Conditions</a>
                   </p>
                 </li>
-                <li>
+                {/* <li>
                   <p className="p-md">
                     <a href="/terms">Privacy Policy</a>
                   </p>
@@ -84,11 +89,11 @@ const Footer = () => {
                   <p className="p-md">
                     <a href="/terms">Cookie Policy</a>
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-md-3 col-lg-2">
+          {/* <div className="col-sm-6 col-md-3 col-lg-2">
             <div className="footer-links mb-40">
               <h6 className="h6-xl">Support</h6>
               <ul className="foo-links text-secondary clearfix">
@@ -99,7 +104,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         <hr />
         <div className="bottom-footer">

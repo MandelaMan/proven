@@ -80,26 +80,22 @@ const AboutUs = () => {
       <section id="features-7" className="wide-70 features-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
-            {/* FEATURES-7 WRAPPER */}
             <div className="col-lg-7 order-last order-lg-2">
               <div className="fbox-7-wrapper pr-30">
                 <div className="row">
                   <div className="col-md-6">
-                    {/* FEATURE BOX #1 */}
                     <div
                       id="fb-7-1"
                       className="fbox-7 mt-40 mb-30 wow fadeInUp"
                     >
-                      {/* Icon */}
                       <div className="fbox-ico-center ico-rounded-md ico-45 bg-tra-purple purple-color">
                         <span className="flaticon-dashboard" />
                       </div>
-                      {/* Title */}
                       <h5 className="h5-sm">Professional Service</h5>
-                      {/* Text */}
                       <p className="p-lg">
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        We help streamline your service so that you can avoid
+                        the hassle of balancing communications with service
+                        providers and suppliers.
                       </p>
                     </div>
                     {/* FEATURE BOX #2 */}
@@ -112,8 +108,9 @@ const AboutUs = () => {
                       <h5 className="h5-sm">We are timely</h5>
                       {/* Text */}
                       <p className="p-lg">
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        When you have questions, need clarification, or want to
+                        explore additional options for a service, We Listen and
+                        Work fast to deliver.
                       </p>
                     </div>
                   </div>
@@ -128,8 +125,9 @@ const AboutUs = () => {
                       <h5 className="h5-sm">Teamwork</h5>
                       {/* Text */}
                       <p className="p-lg">
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        The intimate planning process, done together with you,
+                        keeps everyone on the same page and working together for
+                        a shared goal.
                       </p>
                     </div>
                     {/* FEATURE BOX #4 */}
@@ -142,8 +140,9 @@ const AboutUs = () => {
                       <h5 className="h5-sm">Quality Service</h5>
                       {/* Text */}
                       <p className="p-lg">
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        As your single point of contact, we take on all the
+                        planning, dispatch the most qualified service providers,
+                        and dedication to quality.
                       </p>
                     </div>
                   </div>
