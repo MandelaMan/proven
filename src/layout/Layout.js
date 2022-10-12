@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import ScrollTop from "./ScrollTop";
 import ReactWhatsapp from "react-whatsapp";
+import WhatsAppChat from "./WhatsAppChat";
 
 const Layout = ({
   children,
@@ -39,7 +40,8 @@ const Layout = ({
         {children}
         <Footer />
       </div>
-      <ScrollTop />
+      <WhatsAppChat />
+      {/* <ScrollTop /> */}
     </Fragment>
   );
 };

@@ -250,11 +250,11 @@ const ServiceForm = () => {
                   )}
                   <input
                     type="checkbox"
-                    class="form-check-input"
+                    className="form-check-input"
                     id="acceptTerms"
                     {...register("acceptTerms")}
                   />
-                  <label class="form-check-label" for="acceptTerms">
+                  <label className="form-check-label" for="acceptTerms">
                     &nbsp;&nbsp;I agree to&nbsp;
                     <a href="/terms">Terms & Conditions</a>
                   </label>
