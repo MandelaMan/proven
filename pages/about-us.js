@@ -77,82 +77,14 @@ const AboutUs = () => {
         </div>
         {/* End container */}
       </section>
-      <section id="features-7" className="wide-70 features-section division">
+      <section id="features-6" className="pb-100 features-section division">
         <div className="container">
-          <div className="row d-flex align-items-center">
-            <div className="col-lg-7 order-last order-lg-2">
-              <div className="fbox-7-wrapper pr-30">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div
-                      id="fb-7-1"
-                      className="fbox-7 mt-40 mb-30 wow fadeInUp"
-                    >
-                      <div className="fbox-ico-center ico-rounded-md ico-45 bg-tra-purple purple-color">
-                        <span className="flaticon-dashboard" />
-                      </div>
-                      <h5 className="h5-sm">Professional Service</h5>
-                      <p className="p-lg">
-                        We help streamline your service so that you can avoid
-                        the hassle of balancing communications with service
-                        providers and suppliers.
-                      </p>
-                    </div>
-                    {/* FEATURE BOX #2 */}
-                    <div id="fb-7-2" className="fbox-7 mb-30 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-center ico-rounded-md ico-45 bg-tra-red red-color">
-                        <span className="flaticon-tool" />
-                      </div>
-                      {/* Title */}
-                      <h5 className="h5-sm">We are timely</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        When you have questions, need clarification, or want to
-                        explore additional options for a service, We Listen and
-                        Work fast to deliver.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    {/* FEATURE BOX #3 */}
-                    <div id="fb-7-3" className="fbox-7 mb-30 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-center ico-rounded-md ico-45 bg-tra-yellow yellow-color">
-                        <span className="flaticon-layers" />
-                      </div>
-                      {/* Title */}
-                      <h5 className="h5-sm">Teamwork</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        The intimate planning process, done together with you,
-                        keeps everyone on the same page and working together for
-                        a shared goal.
-                      </p>
-                    </div>
-                    {/* FEATURE BOX #4 */}
-                    <div id="fb-7-4" className="fbox-7 mb-30 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-center ico-rounded-md ico-45 bg-tra-green green-color">
-                        <span className="flaticon-arrow" />
-                      </div>
-                      {/* Title */}
-                      <h5 className="h5-sm">Quality Service</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        As your single point of contact, we take on all the
-                        planning, dispatch the most qualified service providers,
-                        and dedication to quality.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-12 col-lg-5 order-first order-lg-2">
-              <div className="txt-block right-column wow fadeInLeft">
+          {/* SECTION TITLE */}
+          <div className="row justify-content-center">
+            <div className="col-lg-10 col-xl-8">
+              <div className="section-title title-01 mb-70">
                 <span className="section-id rounded-id bg-tra-purple purple-color txt-upcase">
-                  What we offer
+                  Who we are
                 </span>
                 <p className="p-xl">
                   Proven App Limited has a record of exceeding expectations. Our
@@ -164,9 +96,65 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
+          {/* FEATURES-6 WRAPPER */}
+          <div className="fbox-6-wrapper">
+            <div className="row align-items-center row-cols-1 row-cols-md-3">
+              <div className="col">
+                <div id="fb-6-1" className="fbox-6 bg-white wow fadeInUp">
+                  <div className="fbox-ico-center ico-rounded-lg ico-50 bg-tra-green green-color">
+                    <span className="flaticon-browser" />
+                  </div>
+                  <h5 className="h5-md">Professional Service</h5>
+                  <p className="p-lg">
+                    We help streamline your service so that you can avoid the
+                    hassle of balancing communications with service providers
+                    and suppliers.
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div id="fb-6-2" className="fbox-6 bg-white wow fadeInUp">
+                  <div className="fbox-ico-center ico-rounded-lg ico-50 bg-tra-orange orange-color">
+                    <span className="flaticon-layers" />
+                  </div>
+                  <h5 className="h5-md">Teamwork</h5>
+                  <p className="p-lg">
+                    The intimate planning process, done together with you, keeps
+                    everyone on the same page and working together for a shared
+                    goal.
+                  </p>
+                </div>
+                <div id="fb-6-3" className="fbox-6 bg-white wow fadeInUp">
+                  <div className="fbox-ico-center ico-rounded-lg ico-50 bg-tra-purple purple-color">
+                    <span className="flaticon-click-3" />
+                  </div>
+                  <h5 className="h5-md">We are timely</h5>
+                  <p className="p-lg">
+                    When you have questions, need clarification, or want to
+                    explore additional options for a service, We Listen and Work
+                    fast to deliver.
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div id="fb-6-4" className="fbox-6 bg-white wow fadeInUp">
+                  <div className="fbox-ico-center ico-rounded-lg ico-50 bg-tra-yellow yellow-color">
+                    <span className="flaticon-tool" />
+                  </div>
+                  <h5 className="h5-md">Quality Service</h5>
+                  <p className="p-lg">
+                    As your single point of contact, we take on all the
+                    planning, dispatch the most qualified service providers, and
+                    dedication to quality.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <hr className="divider" />
+
+      {/* <hr className="divider" /> */}
       <BrandCompanies />
     </Layout>
   );
