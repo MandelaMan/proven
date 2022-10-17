@@ -18,7 +18,7 @@ const WhatsAppChat = () => {
       }}
     >
       <ReactWhatsapp
-        number="0769937003"
+        number="+25769937003"
         message="How can we help you today?"
         style={{
           backgroundColor: "transparent",
