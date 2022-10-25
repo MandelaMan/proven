@@ -17,7 +17,7 @@ const WhatsAppChat = () => {
         zIndex: 21474836478,
       }}
     >
-      <ReactWhatsapp
+      {/* <ReactWhatsapp
         number="+25769937003"
         message="How can we help you today?"
         style={{
@@ -26,7 +26,7 @@ const WhatsAppChat = () => {
         }}
       >
         <img src="/images/whatsapp.png" alt="icon" />
-      </ReactWhatsapp>
+      </ReactWhatsapp> */}
     </div>
   );
 };
